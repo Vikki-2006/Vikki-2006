@@ -1,9 +1,7 @@
 <div align="center">
 
-# Hey there! 👋 I'm Vigneshwaran
+# 👋 Hi, I'm Vigneshwaran
 
-### 🚀 Full Stack Developer | Software Engineering Student
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&duration=3500&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Building+Modern+Web+Applications;Python+%7C+React+%7C+FastAPI;Always+Learning+New+Technologies;Open+to+Software+Engineering+Internships" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Python+%7C+React+%7C+FastAPI;Software+Engineering+Student;Open+to+Internship+Opportunities" />
 
 </div>
