@@ -1,10 +1,10 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-                 VIGNESHWARAN
-
-      Full Stack Developer • India 🇮🇳
-
-     Building modern, scalable web apps
-      with Python, React & FastAPI.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┌───────────────────────────────────────────────┐
+│                                               │
+│              VIGNESHWARAN                     │
+│                                               │
+│      Full Stack Developer                     │
+│      Python • React • FastAPI                 │
+│                                               │
+│     Building modern, scalable applications.   │
+│                                               │
+└───────────────────────────────────────────────┘
