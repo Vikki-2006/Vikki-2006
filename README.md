@@ -1,10 +1,3 @@
-┌───────────────────────────────────────────────┐
-│                                               │
-│              VIGNESHWARAN                     │
-│                                               │
-│      Full Stack Developer                     │
-│      Python • React • FastAPI                 │
-│                                               │
-│     Building modern, scalable applications.   │
-│                                               │
-└───────────────────────────────────────────────┘
+<p align="center">
+  <img src="./assets/banner.svg" width="100%">
+</p>
