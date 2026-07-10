@@ -1,11 +1,9 @@
 <div align="center">
 
-# 👋 Hi, I'm Vigneshwaran
+# Hey there! 👋 I'm Vigneshwaran
 
-### Full Stack Developer • Python • React • FastAPI
+### 🚀 Full Stack Developer | Software Engineering Student
 
-<p>
-Passionate about building scalable, modern web applications and solving real-world problems through clean, efficient code.
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&duration=3500&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Building+Modern+Web+Applications;Python+%7C+React+%7C+FastAPI;Always+Learning+New+Technologies;Open+to+Software+Engineering+Internships" />
 
 </div>
