@@ -2,82 +2,111 @@
 
   <defs>
     <pattern id="dotgrid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#E5E7EB" opacity="0.55"/>
+      <circle cx="1" cy="1" r="1" fill="#DCE7FF" opacity="0.7"/>
     </pattern>
   </defs>
 
   <rect width="1600" height="250" fill="#FAFAFA"/>
   <rect width="1600" height="250" fill="url(#dotgrid)"/>
 
-  <line x1="60" y1="22" x2="1540" y2="22" stroke="#E5E7EB" stroke-width="1"/>
-  <line x1="60" y1="30" x2="1540" y2="30" stroke="#E5E7EB" stroke-width="1"/>
-  <line x1="60" y1="38" x2="900" y2="38" stroke="#6C63FF" stroke-width="1" stroke-dasharray="6 5" opacity="0.6"/>
+  <!-- top-left dot-grid icon, matching banner mark -->
+  <g>
+    <circle cx="46" cy="20" r="2.4" fill="#111111"/>
+    <circle cx="58" cy="20" r="2.4" fill="#111111"/>
+    <circle cx="70" cy="20" r="2.4" fill="#4F7CFF"/>
+    <circle cx="46" cy="30" r="2.4" fill="#111111"/>
+    <circle cx="58" cy="30" r="2.4" fill="#111111"/>
+    <circle cx="70" cy="30" r="2.4" fill="#7FA9FF"/>
+  </g>
 
-  <path d="M40 20 L40 60 M40 20 L80 20" stroke="#111111" stroke-width="1.4"/>
-  <line x1="40" y1="40" x2="52" y2="40" stroke="#111111" stroke-width="1"/>
-  <line x1="60" y1="20" x2="60" y2="32" stroke="#111111" stroke-width="1"/>
-  <text x="46" y="72" font-family="monospace" font-size="9" fill="#111111" opacity="0.4">X:0040 Y:0020</text>
+  <!-- top horizontal blueprint guide lines with circle/diamond terminators -->
+  <line x1="110" y1="24" x2="1490" y2="24" stroke="#DCE7FF" stroke-width="1"/>
+  <circle cx="110" cy="24" r="3" fill="none" stroke="#4F7CFF" stroke-width="1"/>
+  <path d="M1490 20 L1494 24 L1490 28 L1486 24 Z" fill="none" stroke="#4F7CFF" stroke-width="1"/>
 
-  <g stroke="#6C63FF" stroke-width="1" opacity="0.45">
+  <line x1="60" y1="38" x2="760" y2="38" stroke="#4F7CFF" stroke-width="1" stroke-dasharray="6 5" opacity="0.55"/>
+
+  <!-- top-right diagonal stripe mark + ONLINE label, matching banner -->
+  <g stroke="#111111" stroke-width="1.4">
     <line x1="1500" y1="55" x2="1520" y2="15"/>
     <line x1="1515" y1="55" x2="1535" y2="15"/>
     <line x1="1530" y1="55" x2="1550" y2="15"/>
-    <line x1="1545" y1="55" x2="1565" y2="15"/>
   </g>
-  <path d="M1560 20 L1560 60 M1560 20 L1520 20" stroke="#111111" stroke-width="1.4"/>
-  <text x="1470" y="72" font-family="monospace" font-size="9" fill="#111111" opacity="0.4">REV 2026.07</text>
+  <circle cx="1440" cy="24" r="2.6" fill="#4F7CFF"/>
+  <text x="1450" y="27" font-family="monospace" font-size="9" letter-spacing="1.5" fill="#111111" opacity="0.55">ONLINE</text>
 
-  <g stroke="#6C63FF" stroke-width="1" fill="none" opacity="0.7">
-    <circle cx="150" cy="95" r="7"/>
-    <line x1="150" y1="83" x2="150" y2="89"/>
-    <line x1="150" y1="101" x2="150" y2="107"/>
-    <line x1="138" y1="95" x2="144" y2="95"/>
-    <line x1="156" y1="95" x2="162" y2="95"/>
-  </g>
+  <!-- corner brackets -->
+  <path d="M40 20 L40 60 M40 20 L86 20" stroke="#111111" stroke-width="1.4"/>
+  <line x1="40" y1="42" x2="52" y2="42" stroke="#111111" stroke-width="1"/>
+  <path d="M1560 20 L1560 60 M1560 20 L1518 20" stroke="#111111" stroke-width="1.4"/>
 
-  <g stroke="#6C63FF" stroke-width="1" fill="none" opacity="0.6">
-    <circle cx="1430" cy="105" r="7"/>
-    <line x1="1430" y1="93" x2="1430" y2="99"/>
-    <line x1="1430" y1="111" x2="1430" y2="117"/>
-    <line x1="1418" y1="105" x2="1424" y2="105"/>
-    <line x1="1436" y1="105" x2="1442" y2="105"/>
+  <!-- HUD circles with crosshairs, blueprint blue -->
+  <g stroke="#4F7CFF" stroke-width="1" fill="none" opacity="0.75">
+    <circle cx="150" cy="96" r="7"/>
+    <line x1="150" y1="84" x2="150" y2="90"/>
+    <line x1="150" y1="102" x2="150" y2="108"/>
+    <line x1="138" y1="96" x2="144" y2="96"/>
+    <line x1="156" y1="96" x2="162" y2="96"/>
   </g>
 
-  <circle cx="300" cy="60" r="2" fill="#111111" opacity="0.5"/>
-  <circle cx="1310" cy="60" r="2" fill="#111111" opacity="0.5"/>
-  <circle cx="800" cy="38" r="3" fill="#EF4444"/>
+  <g stroke="#7FA9FF" stroke-width="1" fill="none" opacity="0.7">
+    <circle cx="1430" cy="104" r="7"/>
+    <line x1="1430" y1="92" x2="1430" y2="98"/>
+    <line x1="1430" y1="110" x2="1430" y2="116"/>
+    <line x1="1418" y1="104" x2="1424" y2="104"/>
+    <line x1="1436" y1="104" x2="1442" y2="104"/>
+  </g>
 
-  <g stroke="#111111" stroke-width="1" opacity="0.3">
+  <!-- tiny blueprint nodes -->
+  <circle cx="300" cy="58" r="2" fill="#111111" opacity="0.45"/>
+  <circle cx="1310" cy="58" r="2" fill="#111111" opacity="0.45"/>
+  <circle cx="800" cy="40" r="2.4" fill="#4F7CFF"/>
+
+  <!-- measurement ticks -->
+  <g stroke="#111111" stroke-width="1" opacity="0.28">
     <line x1="200" y1="26" x2="200" y2="34"/>
     <line x1="260" y1="26" x2="260" y2="34"/>
     <line x1="1340" y1="26" x2="1340" y2="34"/>
     <line x1="1400" y1="26" x2="1400" y2="34"/>
   </g>
 
-  <text x="800" y="118" text-anchor="middle" font-family="'Segoe UI', Inter, sans-serif" font-size="34" font-weight="600" fill="#111111">
+  <!-- center content -->
+  <text x="800" y="118" text-anchor="middle" font-family="'Segoe UI', Inter, sans-serif" font-size="34" font-weight="700" fill="#111111">
     Thanks for Visiting!
   </text>
 
-  <text x="800" y="150" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="1" fill="#6C63FF">
-    github.com/Vikki-2006
+  <text x="800" y="150" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="1" fill="#4F7CFF">
+    github.com/<tspan fill="#7FA9FF">Vikki-2006</tspan>
   </text>
 
-  <text x="800" y="172" text-anchor="middle" font-family="monospace" font-size="9" fill="#111111" opacity="0.35">
-    SEC — FOOTER / EOF
+  <text x="800" y="172" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#111111" opacity="0.35">
+    VERSION 1.0.0
   </text>
 
-  <path d="M690 95 L690 80 L710 80" stroke="#111111" stroke-width="1" opacity="0.5"/>
-  <path d="M910 95 L910 80 L890 80" stroke="#111111" stroke-width="1" opacity="0.5"/>
+  <!-- corner brackets framing center block -->
+  <path d="M690 96 L690 80 L712 80" stroke="#111111" stroke-width="1" opacity="0.45"/>
+  <path d="M910 96 L910 80 L888 80" stroke="#111111" stroke-width="1" opacity="0.45"/>
 
+  <!-- coordinate label, bottom-left, matching banner style -->
+  <circle cx="52" cy="205" r="2.4" fill="#4F7CFF"/>
+  <text x="62" y="209" font-family="monospace" font-size="9" fill="#111111" opacity="0.55">SYS.LOC: 12.9716° N, 79.1988° E</text>
+
+  <text x="1548" y="209" text-anchor="end" font-family="monospace" font-size="9" fill="#111111" opacity="0.4">REV: 2026.07</text>
+
+  <!-- blueprint construction lines above the wave -->
+  <line x1="0" y1="196" x2="1600" y2="196" stroke="#DCE7FF" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <!-- architectural blueprint wave, all blue tones -->
   <path d="M0 232 C 320 195, 620 250, 960 210 C 1220 178, 1400 222, 1600 198"
-        stroke="#6C63FF" stroke-width="1.6" opacity="0.85"/>
+        stroke="#4F7CFF" stroke-width="1.6" opacity="0.85"/>
   <path d="M0 246 C 380 218, 700 248, 1040 226 C 1280 210, 1440 238, 1600 220"
-        stroke="#E5E7EB" stroke-width="1.2"/>
+        stroke="#7FA9FF" stroke-width="1.2" opacity="0.7"/>
   <path d="M0 238 C 300 205, 640 244, 980 216 C 1240 196, 1420 228, 1600 208"
-        stroke="#111111" stroke-width="0.8" opacity="0.25"/>
+        stroke="#DCE7FF" stroke-width="1" opacity="0.9"/>
 
-  <circle cx="320" cy="200" r="2" fill="#6C63FF" opacity="0.7"/>
-  <circle cx="960" cy="214" r="2" fill="#6C63FF" opacity="0.7"/>
-  <circle cx="1400" cy="222" r="2" fill="#111111" opacity="0.4"/>
+  <!-- tiny floating nodes along the wave -->
+  <circle cx="320" cy="200" r="2" fill="#4F7CFF" opacity="0.8"/>
+  <circle cx="960" cy="214" r="2" fill="#7FA9FF" opacity="0.8"/>
+  <circle cx="1400" cy="222" r="2" fill="#111111" opacity="0.35"/>
 
 </svg>
