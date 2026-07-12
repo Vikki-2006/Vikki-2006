@@ -180,3 +180,8 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 <p align="center">
 Thanks for visiting my profile! ⭐<br>
 </p>
+<br>
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Footer"/>
+</p>
