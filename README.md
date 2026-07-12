@@ -108,6 +108,18 @@ const me = {
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,20,24,30,36,42,49,57,64,72&section=header" width="100%"/>
 </p>
 
+## 📈 GitHub Analytics
+
+<p align="center">
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vikki-2006&theme=github_dark" />
+  <img height="170" src="https://streak-stats.demolab.com?user=Vikki-2006&theme=github-dark-blue&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vikki-2006&theme=github-dark&hide_border=true" />
+</p>
+
+
 ## 🏆 Coding Profiles
 
 <p align="center">
@@ -124,6 +136,7 @@ const me = {
     <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" />
   </a>
 </p>
+<br>
 
 ## 📌 Featured Projects
 
