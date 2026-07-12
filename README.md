@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
-<a href="YOUR_RESUME_LINK" target="_blank">
+<a href="https://vigneshwaran2006.vercel.app/Vigneshwaran_S_Resume_Updated.pdf" target="_blank">
 <img src="https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 </a>
 
