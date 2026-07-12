@@ -159,9 +159,13 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 </td>
 </tr>
 </table>
+<br><br>
 
-## 📫 Let's Connect
+<p align="center">
+  <!-- Social Buttons -->
+</p>
 
+<br><br>
 <p align="center">
 <a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -178,10 +182,5 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 
 
 <p align="center">
-Thanks for visiting my profile! ⭐<br>
-</p>
-<br>
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Footer"/>
+<img src="./assets/footer.svg" width="100%" alt="Footer">
 </p>
