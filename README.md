@@ -118,3 +118,65 @@ const me = {
     <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" />
   </a>
 </p>
+
+## 📌 Featured Projects
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+### ♻️ Smart Waste Collection System
+
+AI-powered IoT waste management system with real-time monitoring and route optimization.
+
+**Tech Stack**
+
+`Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
+
+<a href="YOUR_REPO">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+<td width="50%" align="center">
+
+### 🌐 Portfolio Website
+
+Personal developer portfolio with responsive design, smooth animations, and modern UI.
+
+**Tech Stack**
+
+`React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
+
+<a href="https://vigneshwaran2006.vercel.app">
+<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
+</a>
+
+<a href="YOUR_PORTFOLIO_REPO">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+</tr>
+</table>
+
+## 📫 Let's Connect
+
+<p align="center">
+<a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:vikki.29062006@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://vigneshwaran2006.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+</p>
+
+
+<p align="center">
+Thanks for visiting my profile! ⭐<br>
+</p>
