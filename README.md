@@ -6,28 +6,32 @@
   
 <p align="center">
 
-<a href="https://vigneshwaran2006.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<a href="https://vigneshwaran2006.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="YOUR_RESUME_LINK" target="_blank">
+<img src="https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 </a>
 
 <a href="https://github.com/Vikki-2006" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://x.com/Vignesh72625559" target="_blank">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 
-<a href="https://www.reddit.com/u/Lalo_vikki/s/fxJg9CPppR" target="_blank">
-  <img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" />
+<a href="https://www.reddit.com/u/Lalo_vikki/" target="_blank">
+<img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/>
 </a>
 
 <a href="mailto:vikki.29062006@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 </p>
@@ -100,7 +104,9 @@ const me = {
 ![](https://img.shields.io/badge/System_Design-8E44AD?style=for-the-badge)
 ![](https://img.shields.io/badge/Cloud_Computing-4285F4?style=for-the-badge)
 
----
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,20,24,30,36,42,49,57,64,72&section=header" width="100%"/>
+</p>
 
 ## 🏆 Coding Profiles
 
@@ -161,26 +167,22 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 </table>
 <br><br>
 
+## 📫 Let's Connect
+
 <p align="center">
-  <!-- Social Buttons -->
+  <a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="mailto:vikki.29062006@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
+  <a href="https://vigneshwaran2006.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
 </p>
 
-<br><br>
 <p align="center">
-<a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:vikki.29062006@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://vigneshwaran2006.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-</p>
-
-
-<p align="center">
-<img src="./assets/footer.svg" width="100%" alt="Footer">
+  <img src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/main/assets/footer.svg" width="100%" alt="Footer"/>
 </p>
