@@ -155,7 +155,7 @@ AI-powered IoT waste management system with real-time monitoring and route optim
 
 `Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
 
-<a href="YOUR_REPO">
+<a href="https://github.com/Vikki-2006/smart-waste-system">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -174,7 +174,7 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
 
-<a href="YOUR_PORTFOLIO_REPO">
+<a href="https://github.com/Vikki-2006/Portfolio">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
