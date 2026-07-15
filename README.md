@@ -202,4 +202,4 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/main/assets/footer.svg" width="100%" alt="Footer"/>
 </p>
----
+
