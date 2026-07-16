@@ -37,14 +37,24 @@
 </p>
 
 ## 👨‍💻 About Me
-```javascript
-const me = {
-    role: "Full Stack Developer",
-    code: ["Python", "C", "C++", "React"],
-    learning: ["DSA", "System Design"],
-    building: "Scalable Web Applications",
-    goal: "Build software that creates real-world impact."
-};
+
+```python
+class Vigneshwaran S:
+    role = "Full Stack Developer"
+    location = "Tamil Nadu, India"
+
+    languages = ["Python", "C", "C++", "Java", "JavaScript"]
+    frontend = ["React", "HTML", "CSS", "Tailwind CSS"]
+    backend = ["FastAPI", "Flask", "REST API"]
+    database = ["MySQL", "PostgreSQL"]
+
+    currently_learning = [
+        "Data Structures & Algorithms",
+        "System Design",
+        "Backend Engineering"
+    ]
+
+    goal = "Build scalable software and grow as a Software Engineer."
 ```
 
 ## 🖥️ Tech Stack
