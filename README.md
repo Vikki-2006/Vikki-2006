@@ -180,7 +180,7 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 
 `React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
 
-<a href="https://vigneshwaran2006.vercel.app">
+<a href="https://vigneshwaran-dev.vercel.app/">
 <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
 
