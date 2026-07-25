@@ -204,7 +204,7 @@ Personal developer portfolio with responsive design, smooth animations, and mode
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 
-  <a href="https://vigneshwaran2006.vercel.app">
+  <a href="https://vigneshwaran-dev.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
 </p>
