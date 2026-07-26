@@ -207,7 +207,7 @@ Personal developer portfolio with responsive design, smooth animations, and mode
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
   <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vikki-2006&base=235&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Vikki-2006&base=185&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
 </p>
 </p>
 <br>
