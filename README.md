@@ -212,4 +212,4 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/main/assets/footer.svg" width="100%" alt="Footer"/>
 </p>
-![](https://komarev.com/ghpvc/?username=Vikki-2006&label=Profile%20Views&color=0e75b6&style=flat)
+
