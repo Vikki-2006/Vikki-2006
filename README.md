@@ -1,3 +1,6 @@
+
+
+
 <p align="center">
   <img src="./banner.svg" width="100%" alt="Vigneshwaran S Banner">
 </p>
@@ -189,7 +192,7 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 </table>
 <br><br>
 
-## 📫 Let's Connect
+## 📫 Let's Connect 
 <br>
 <p align="center">
   <a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/">
@@ -203,6 +206,9 @@ Personal developer portfolio with responsive design, smooth animations, and mode
   <a href="https://vigneshwaran-dev.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
+  <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Vikki-2006&base=235&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
+</p>
 </p>
 <br>
 <p align="center">
