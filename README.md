@@ -4,6 +4,9 @@
 <p align="center">
   <img src="./banner.svg" width="100%" alt="Vigneshwaran S Banner">
 </p>
+<h3 align="center">
+  <br>
+<p align="center">
 
 <a href="https://vigneshwaran-dev.vercel.app/" target="_blank">
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
