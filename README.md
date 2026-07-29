@@ -151,6 +151,7 @@ class Vigneshwaran S:
 
 <table>
 <tr>
+
 <td width="50%" align="center">
 
 ### ♻️ Smart Waste Collection System
@@ -166,6 +167,7 @@ AI-powered IoT waste management system with real-time monitoring and route optim
 </a>
 
 </td>
+
 <td width="50%" align="center">
 
 ### 🌐 Portfolio Website
@@ -185,8 +187,50 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 </a>
 
 </td>
+
 </tr>
 </table>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" align="center">
+
+### 🤖 AI Developer Assistant CLI
+
+A modern AI-powered terminal assistant featuring rich Markdown rendering, session history, and Gemini API integration.
+
+**Tech Stack**
+
+`Python` `Google Gemini API` `Rich` `CLI`
+
+<a href="https://github.com/Vikki-2006/ai-developer-assistant">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+
+<td width="50%" align="center">
+
+### 📄 DocCraft
+
+Modern offline PDF toolkit for merging, splitting, converting, rotating, and watermarking PDF files.
+
+**Tech Stack**
+
+`Python` `CustomTkinter` `PyMuPDF` `HTML`
+
+<a href="https://github.com/Vikki-2006/Doc-craft">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+
+</tr>
+</table>
+
 <br><br>
 
 ## 📫 Let's Connect 
