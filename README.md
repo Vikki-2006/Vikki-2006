@@ -154,15 +154,17 @@ class Vigneshwaran S:
 
 <td width="50%" align="center">
 
-### ♻️ Smart Waste Collection System
+### 🤖 AI Developer Assistant CLI
 
-AI-powered IoT waste management system with real-time monitoring and route optimization.
+AI-powered terminal assistant with rich Markdown rendering, conversation history, Google Gemini integration, and developer-focused productivity tools.
 
 **Tech Stack**
 
-`Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
+`Python` `Google Gemini API` `Rich` `CLI`
 
-<a href="https://github.com/Vikki-2006/smart-waste-system">
+<br>
+
+<a href="https://github.com/Vikki-2006/ai-developer-assistant">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -170,19 +172,17 @@ AI-powered IoT waste management system with real-time monitoring and route optim
 
 <td width="50%" align="center">
 
-### 🌐 Portfolio Website
+### 📄 DocCraft
 
-Personal developer portfolio with responsive design, smooth animations, and modern UI.
+Modern offline PDF toolkit for merging, splitting, converting, rotating, watermarking, and managing PDF documents with an intuitive interface.
 
 **Tech Stack**
 
-`React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
+`Python` `CustomTkinter` `PyMuPDF` `HTML`
 
-<a href="https://vigneshwaran-dev.vercel.app/">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
+<br>
 
-<a href="https://github.com/Vikki-2006/Portfolio">
+<a href="https://github.com/Vikki-2006/Doc-craft">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -198,15 +198,21 @@ Personal developer portfolio with responsive design, smooth animations, and mode
 
 <td width="50%" align="center">
 
-### 🤖 AI Developer Assistant CLI
+### 🌐 Portfolio Website
 
-A modern AI-powered terminal assistant featuring rich Markdown rendering, session history, and Gemini API integration.
+Modern developer portfolio showcasing projects, responsive design, smooth animations, and an interactive user experience.
 
 **Tech Stack**
 
-`Python` `Google Gemini API` `Rich` `CLI`
+`React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
 
-<a href="https://github.com/Vikki-2006/ai-developer-assistant">
+<br>
+
+<a href="https://vigneshwaran-dev.vercel.app/">
+<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
+</a>
+
+<a href="https://github.com/Vikki-2006/Portfolio">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -214,15 +220,17 @@ A modern AI-powered terminal assistant featuring rich Markdown rendering, sessio
 
 <td width="50%" align="center">
 
-### 📄 DocCraft
+### ♻️ Smart Waste Collection System
 
-Modern offline PDF toolkit for merging, splitting, converting, rotating, and watermarking PDF files.
+AI-powered IoT waste management platform with real-time monitoring, smart route optimization, and efficient waste collection.
 
 **Tech Stack**
 
-`Python` `CustomTkinter` `PyMuPDF` `HTML`
+`Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
 
-<a href="https://github.com/Vikki-2006/Doc-craft">
+<br>
+
+<a href="https://github.com/Vikki-2006/smart-waste-system">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -232,7 +240,6 @@ Modern offline PDF toolkit for merging, splitting, converting, rotating, and wat
 </table>
 
 <br><br>
-
 ## 📫 Let's Connect 
 <br>
 <p align="center">
