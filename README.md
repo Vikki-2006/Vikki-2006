@@ -10,10 +10,6 @@
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
-<a href="https://vigneshwaran-dev.vercel.app/resume/Vigneshwaran_S_Resume.pdf" target="_blank">
-<img src="https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
-</a>
-
 <a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
