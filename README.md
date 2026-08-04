@@ -119,13 +119,7 @@ class Vigneshwaran S:
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vikki-2006&theme=github-dark&hide_border=true" />
 </p>
 
-<p align="center">
-  <img width="95%" src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/output/pacman-contribution-graph-dark.svg" alt="Pac-Man Contribution Graph" />
-</p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=00FF41&section=header" width="100%"/>
-</p>
 
 ## 🏆 Coding Profiles
 
@@ -232,7 +226,15 @@ AI-powered IoT waste management platform with real-time monitoring, smart route 
 </table>
 
 <br><br>
-## 📫 Let's Connect 
+
+<p align="center">
+  <img width="95%" src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/output/pacman-contribution-graph-dark.svg" alt="Pac-Man Contribution Graph" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=00FF41&section=header" width="100%"/>
+</p>
+
 <br>
 <p align="center">
   <a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/">
