@@ -129,7 +129,7 @@ class Vigneshwaran S:
 </p>
 
 
-## 🏆 Coding Profiles
+## Coding Profile 
 
 <p align="center">
   <a href="https://www.codechef.com/users/vikki2006" target="_blank">
