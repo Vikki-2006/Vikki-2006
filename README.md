@@ -132,7 +132,7 @@ class Vigneshwaran S:
 </p>
 
 <p align="center">
-  <i>🚀 
+  <i>
 </p>
 
 
