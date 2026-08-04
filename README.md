@@ -114,10 +114,16 @@ class Vigneshwaran S:
 
 <p align="center">
   <i
-
+    <p align="center">
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vikki-2006&theme=github_dark" />
+</p>
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=Vikki-2006&theme=github-dark-blue&hide_border=true" />
+</p>
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vikki-2006&theme=github-dark&hide_border=true" />
 </p>
+
 
 
 
