@@ -125,6 +125,17 @@ class Vigneshwaran S:
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,20,24,30,36,42,49,57,64,72&section=header" width="100%"/>
 </p>
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
+
+<p align="center">
+  <i>🚀 Eat • Code • Commit • Repeat</i>
+</p>
+
+
 ## 🏆 Coding Profiles
 <br>
 <p align="center">
