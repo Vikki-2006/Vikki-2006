@@ -132,7 +132,7 @@ class Vigneshwaran S:
 </p>
 
 <p align="center">
-  <i>🚀 Eat • Code • Commit • Repeat</i>
+  <i>🚀 
 </p>
 
 
