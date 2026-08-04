@@ -113,35 +113,22 @@ class Vigneshwaran S:
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vikki-2006&theme=github_dark" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Vikki-2006&theme=github-dark-blue&hide_border=true" />
-</p>
+  <i
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vikki-2006&theme=github-dark&hide_border=true" />
 </p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,20,24,30,36,42,49,57,64,72&section=header" width="100%"/>
-</p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img width="95%" src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/output/pacman-contribution-graph-dark.svg" alt="Pac-Man Contribution Graph" />
 </p>
 
 <p align="center">
-  <i>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=00FF41&section=header" width="100%"/>
 </p>
-
 
 ## 🏆 Coding Profiles
-<br>
-<p align="center">
-  <a href="https://leetcode.com/u/Vikki-2006/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
-  </a>
+
   <a href="https://www.codechef.com/users/vikki2006" target="_blank">
     <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
   </a>
