@@ -129,7 +129,7 @@ class Vigneshwaran S:
 </p>
 
 
-## Coding Profile 
+<h2>🏆 Coding Profile</h2>
 
 <p align="center">
   <a href="https://www.codechef.com/users/vikki2006" target="_blank">
@@ -147,22 +147,24 @@ class Vigneshwaran S:
 
 <br>
 
-## 📌 Featured Projects
+<h2>📌 Featured Projects</h2>
 
 <table>
 <tr>
 
 <td width="50%" align="center">
 
-### 🤖 AI Developer Assistant CLI
+<h3>🤖 AI Developer Assistant CLI</h3>
 
 AI-powered terminal assistant with rich Markdown rendering, conversation history, Google Gemini integration, and developer-focused productivity tools.
 
-**Tech Stack**
+<b>Tech Stack</b>
+
+<br><br>
 
 `Python` `Google Gemini API` `Rich` `CLI`
 
-<br>
+<br><br>
 
 <a href="https://github.com/Vikki-2006/ai-developer-assistant">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -172,15 +174,17 @@ AI-powered terminal assistant with rich Markdown rendering, conversation history
 
 <td width="50%" align="center">
 
-### 📄 DocCraft
+<h3>📄 DocCraft</h3>
 
 Modern offline PDF toolkit for merging, splitting, converting, rotating, watermarking, and managing PDF documents with an intuitive interface.
 
-**Tech Stack**
+<b>Tech Stack</b>
+
+<br><br>
 
 `Python` `CustomTkinter` `PyMuPDF` `HTML`
 
-<br>
+<br><br>
 
 <a href="https://github.com/Vikki-2006/Doc-craft">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -198,35 +202,37 @@ Modern offline PDF toolkit for merging, splitting, converting, rotating, waterma
 
 <td width="50%" align="center">
 
-### 🌐 Portfolio Website
+<h3>🌐 Portfolio Website</h3>
 
 Modern developer portfolio showcasing projects, responsive design, smooth animations, and an interactive user experience.
 
-**Tech Stack**
+<b>Tech Stack</b>
+
+<br><br>
 
 `React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
 
-<br>
+<br><br>
 
 <a href="https://vigneshwaran-dev.vercel.app/">
 <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
 
-
-
 </td>
 
 <td width="50%" align="center">
 
-### ♻️ Smart Waste Collection System
+<h3>♻️ Smart Waste Collection System</h3>
 
 AI-powered IoT waste management platform with real-time monitoring, smart route optimization, and efficient waste collection.
 
-**Tech Stack**
+<b>Tech Stack</b>
+
+<br><br>
 
 `Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
 
-<br>
+<br><br>
 
 <a href="https://github.com/Vikki-2006/smart-waste-system">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
