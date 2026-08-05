@@ -147,45 +147,42 @@ src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Vik
 
 <h2>📌 Featured Projects</h2>
 
+<!-- First Row -->
 <table>
 <tr>
 
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
 
 <h3>🤖 AI Developer Assistant CLI</h3>
 
-AI-powered terminal assistant with rich Markdown rendering, conversation history, Google Gemini integration, and developer-focused productivity tools.
+AI-powered terminal assistant with Markdown rendering, Gemini AI integration, and developer productivity tools.
 
-<b>Tech Stack</b>
+<br>
 
-<br><br>
-
-`Python` `Google Gemini API` `Rich` `CLI`
+`Python` `Gemini API` `Rich` `CLI`
 
 <br><br>
 
 <a href="https://github.com/Vikki-2006/ai-developer-assistant">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
 
 <h3>📄 DocCraft</h3>
 
-Modern offline PDF toolkit for merging, splitting, converting, rotating, watermarking, and managing PDF documents with an intuitive interface.
+Offline PDF toolkit for merging, splitting, converting, rotating, watermarking, and managing PDF documents.
 
-<b>Tech Stack</b>
-
-<br><br>
+<br>
 
 `Python` `CustomTkinter` `PyMuPDF` `HTML`
 
 <br><br>
 
 <a href="https://github.com/Vikki-2006/Doc-craft">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -195,52 +192,48 @@ Modern offline PDF toolkit for merging, splitting, converting, rotating, waterma
 
 <br>
 
+<!-- Second Row -->
 <table>
 <tr>
 
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
 
 <h3>🌐 Portfolio Website</h3>
 
-Modern developer portfolio showcasing projects, responsive design, smooth animations, and an interactive user experience.
+Modern developer portfolio with responsive design, smooth animations, and interactive user experience.
 
-<b>Tech Stack</b>
-
-<br><br>
+<br>
 
 `React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
 
 <br><br>
 
 <a href="https://vigneshwaran-dev.vercel.app/">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 </td>
 
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
 
 <h3>♻️ Smart Waste Collection System</h3>
 
-AI-powered IoT waste management platform with real-time monitoring, smart route optimization, and efficient waste collection.
+AI-powered IoT platform for real-time waste monitoring, route optimization, and smart waste collection.
 
-<b>Tech Stack</b>
-
-<br><br>
+<br>
 
 `Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
 
 <br><br>
 
 <a href="https://github.com/Vikki-2006/smart-waste-system">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 
 </tr>
 </table>
-
 <br><br>
 
 <p align="center">
