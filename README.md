@@ -22,7 +22,7 @@
 <img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/>
 </a>
 
-<a href="mailto:vigneshwaran.s.dev@gmail.com">
+<a href="mailto:vigneshwaran.s.dev@gmail.comm">
 <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
@@ -254,7 +254,7 @@ AI-powered IoT platform for real-time waste monitoring, route optimization, and 
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
-  <a href="mailto:vigneshwaran.dev@gmail.com">
+  <a href="mailto:vigneshwaran.s.dev@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 
