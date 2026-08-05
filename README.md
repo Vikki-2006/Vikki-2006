@@ -254,7 +254,7 @@ AI-powered IoT platform for real-time waste monitoring, route optimization, and 
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
-  <a href="mailto:vikki.29062006@gmail.com">
+  <a href="mailto:vigneshwaran.dev@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 
@@ -262,7 +262,7 @@ AI-powered IoT platform for real-time waste monitoring, route optimization, and 
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vikki-2006&base=5&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Vikki-2006-readme&base=50&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
 </p>
 </p>
 <br>
