@@ -113,7 +113,8 @@ class Vigneshwaran S:
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vikki-2006&theme=github_dark" />
+ <img height="170"
+src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Vikki-2006&layout=compact&theme=github_dark&hide_border=true" />
   <img height="170" src="https://streak-stats.demolab.com?user=Vikki-2006&theme=github-dark-blue&hide_border=true" />
 </p>
 
