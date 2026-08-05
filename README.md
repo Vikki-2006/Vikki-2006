@@ -141,6 +141,10 @@ src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Vik
   <a href="https://www.hackerrank.com/profile/Vikki_2006" target="_blank">
     <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" />
   </a>
+
+  <a href="https://leetcode.com/u/Vikki-2006/" target="_blank">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
 </p>
 
 <br>
