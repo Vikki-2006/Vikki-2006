@@ -33,20 +33,29 @@
 ```python
 class Vigneshwaran S:
     role = "Full Stack Developer"
-    location = "Tamil Nadu, India"
+    focus = "Building scalable, practical & user-focused applications"
 
-    languages = ["Python", "C", "C++", "Java", "JavaScript"]
-    frontend = ["React", "HTML", "CSS", "Tailwind CSS"]
-    backend = ["FastAPI", "Flask", "REST API"]
-    database = ["MySQL", "PostgreSQL"]
+    languages = ["Python","C++", "JavaScript"]
+    
+    frontend = ["React", "HTML", "CSS", "Tailwind CSS", "Vite"]
+    backend = ["FastAPI", "Flask", "REST APIs"]
+    databases = ["MySQL", "PostgreSQL", "SQLite"]
 
     currently_learning = [
         "Data Structures & Algorithms",
         "System Design",
-        "Backend Engineering"
+        "Backend Engineering",
+        "AI & API Integration"
     ]
 
-    goal = "Build scalable software and grow as a Software Engineer."
+    interests = [
+        "Full Stack Development",
+        "Backend Development",
+        "AI-Powered Applications",
+        "Scalable Systems"
+    ]
+
+    goal = "Build reliable software that solves real-world problems."
 ```
 
 ## 🖥️ Tech Stack
