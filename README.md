@@ -279,6 +279,5 @@ Privacy-focused Manifest V3 browser extension that blocks ads, trackers, popups,
 </p>
 <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vikki-2006/Vikki-2006/main/assets/footer.svg" width="100%" alt="Footer"/>
+  <img src="./footer.svg" width="100%" alt="Vigneshwaran S Footer">
 </p>
-
