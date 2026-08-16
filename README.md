@@ -274,7 +274,7 @@ Privacy-focused Manifest V3 browser extension that blocks ads, trackers, popups,
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vikki-2006-readme&base=5&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Vikki-2006-v2&label=PROFILE+VIEWS&style=for-the-badge&color=007ec6" alt="Profile Views" />
 </p>
 </p>
 <br>
