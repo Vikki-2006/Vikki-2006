@@ -1,470 +1,497 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="100%" role="img" aria-labelledby="bannerTitle">
-<title id="bannerTitle">Vigneshwaran S — Full Stack &amp; AI/ML Developer</title>
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vigneshwaran S — Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070D"/>
+      <stop offset="55%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0B1018"/>
+    </linearGradient>
 
-<defs>
-  <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" fill="none" stroke="#ECECEF" stroke-width="1"/>
-  </pattern>
-  <pattern id="hazardPattern" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-    <rect width="10" height="10" fill="#FAFAFA"/>
-    <rect width="4" height="10" fill="#111111"/>
-  </pattern>
-  <pattern id="darkGrid" width="34" height="34" patternUnits="userSpaceOnUse">
-    <path d="M34 0H0V34" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  </pattern>
-  <radialGradient id="blobGlow" cx="55%" cy="45%" r="60%">
-    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.09"/>
-    <stop offset="45%" stop-color="#93C5FD" stop-opacity="0.05"/>
-    <stop offset="100%" stop-color="#93C5FD" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="blobFill" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#161616"/>
-    <stop offset="55%" stop-color="#141414"/>
-    <stop offset="100%" stop-color="#050505"/>
-  </linearGradient>
-  <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#BFDBFE" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#BFDBFE" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="beamGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#93C5FD" stop-opacity="0.08"/>
-    <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="vScanGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#2563EB" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
-  </linearGradient>
-  <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#F8FAFC" stop-opacity="0.9"/>
-    <stop offset="55%" stop-color="#93C5FD" stop-opacity="0.25"/>
-    <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
-  </radialGradient>
-  <clipPath id="blobClip">
-    <path d="M260,4 C372,4 516,58 516,214 C516,336 452,476 258,476 C104,476 4,378 4,218 C4,82 132,4 260,4 Z"/>
-  </clipPath>
+    <linearGradient id="spotBand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
 
-  <pattern id="darkGridFine" width="12" height="12" patternUnits="userSpaceOnUse">
-    <path d="M12 0H0V12" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
-  </pattern>
+    <radialGradient id="circleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#101827" stop-opacity="0"/>
+    </radialGradient>
 
-  <filter id="softBlur30" x="-60%" y="-60%" width="220%" height="220%">
-    <feGaussianBlur stdDeviation="24"/>
-  </filter>
-  <filter id="softBlur6" x="-150%" y="-150%" width="400%" height="400%">
-    <feGaussianBlur stdDeviation="2.4"/>
-  </filter>
-  <filter id="noiseTex" x="0" y="0" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
-    <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"/>
-  </filter>
+    <radialGradient id="panelGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="58%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="82%" stop-color="#2563EB" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
 
-  <linearGradient id="depthLayer" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0A0F1A" stop-opacity="0.35"/>
-    <stop offset="45%" stop-color="#000000" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#020617" stop-opacity="0.4"/>
-  </linearGradient>
-  <radialGradient id="vignetteGrad" cx="50%" cy="46%" r="62%">
-    <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
-    <stop offset="62%" stop-color="#000000" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
-  </radialGradient>
-  <mask id="vignetteMask">
-    <rect x="0" y="0" width="520" height="480" fill="url(#vignetteGrad)"/>
-  </mask>
-</defs>
+    <radialGradient id="panelInterior" cx="43%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#17263A"/>
+      <stop offset="55%" stop-color="#111C2C"/>
+      <stop offset="100%" stop-color="#0B111C"/>
+    </radialGradient>
 
-<style>
-<![CDATA[
-  text{ font-family: Arial, Helvetica, sans-serif; }
-  .mono{ font-family: "Courier New", Consolas, monospace; }
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
 
-  @keyframes gridFade{ 0%,100%{ opacity:.55; } 50%{ opacity:.22; } }
-  .bp-grid{ animation: gridFade 9s ease-in-out infinite; }
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
 
-  @keyframes dotPulseOp{ 0%,100%{ opacity:.55; } 50%{ opacity:1; } }
-  .pulse-dot{ animation: dotPulseOp 2.4s ease-in-out infinite; }
+    <linearGradient id="dipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#3A3A3A"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
 
-  @keyframes nodePulse{ 0%,100%{ opacity:.5; r:2.2px; } 50%{ opacity:1; r:3.4px; } }
-  .hud-node{ fill:#60A5FA; animation: nodePulse 3s ease-in-out infinite; }
+    <linearGradient id="termGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141F30"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
 
-  @keyframes spin{ to{ transform: rotate(360deg); } }
-  @keyframes spinRev{ from{ transform: rotate(360deg); } to{ transform: rotate(0deg); } }
-  .spin-rings{ transform-box: fill-box; transform-origin: center; animation: spin 60s linear infinite; }
-  .spin-globe{ transform-box: fill-box; transform-origin: center; animation: spin 90s linear infinite; }
-  .spin-radar{ transform-box: fill-box; transform-origin: center; animation: spin 16s linear infinite; }
-  .spin-dashed{ transform-box: fill-box; transform-origin: center; animation: spinRev 50s linear infinite; }
-  .spin-deco{ transform-box: fill-box; transform-origin: center; animation: spinRev 70s linear infinite; }
-  .spin-mark{ transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8EEFF"/>
+    </linearGradient>
 
-  @keyframes floaty{ 0%,100%{ transform: translateY(0); } 50%{ transform: translateY(-5px); } }
-  .float{ animation: floaty 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    <pattern id="dotGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1C2333" fill-opacity="0.7"/>
+    </pattern>
 
-  @keyframes hexFloat{ 0%,100%{ transform: translateY(0) rotate(0deg); } 50%{ transform: translateY(-6px) rotate(4deg); } }
-  .hex-float{ transform-box: fill-box; transform-origin: center; animation: hexFloat 7s ease-in-out infinite; }
+    <clipPath id="circleClip">
+      <circle cx="1300" cy="252" r="152"/>
+    </clipPath>
 
-  @keyframes plusFloat{ 0%,100%{ transform: translateY(0); opacity:.35; } 50%{ transform: translateY(-5px); opacity:.8; } }
-  .plus-sym{ animation: plusFloat 6s ease-in-out infinite; }
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1500" height="500" rx="14"/>
+    </clipPath>
 
-  @keyframes blink{ 50%{ opacity:0; } }
-  .cursor{ animation: blink 1s steps(1) infinite; }
+    <mask id="nameDip" maskUnits="userSpaceOnUse" x="0" y="0" width="1500" height="500">
+      <rect x="0" y="0" width="1500" height="500" fill="#FFFFFF"/>
+      <rect x="540" y="155" width="330" height="120" fill="url(#dipGrad)"/>
+    </mask>
 
-  @keyframes flow{ 0%,100%{ x:660px; width:120px; } 50%{ x:696px; width:160px; } }
-  .flow-fill{ animation: flow 5s ease-in-out infinite; }
+    <style>
+      <![CDATA[
+        :root {
+          --font-sans: "Inter Tight", "Space Grotesk", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+          --font-name: "Sora", "Plus Jakarta Sans", "Manrope", Inter, Arial, sans-serif;
+        }
 
-  @keyframes vScan{ 0%{ transform: translateX(-68px); } 100%{ transform: translateX(170px); } }
-  .v-scan{ animation: vScan 4s linear infinite; }
+        .grid-pulse { animation: gridDrift 35s ease-in-out infinite; }
+        @keyframes gridDrift {
+          0%, 100% { transform: translate(0px,0px); opacity:0.4; }
+          50% { transform: translate(3px,-2px); opacity:0.56; }
+        }
 
-  @keyframes blobScan{ 0%{ transform: translateX(-182px); opacity:0; } 10%{ opacity:1; } 90%{ opacity:1; } 100%{ transform: translateX(660px); opacity:0; } }
-  .scan-line{ animation: blobScan 9s linear infinite; }
-  .scan-line-2{ animation: blobScan 11s linear infinite; animation-delay:3.5s; }
+        .diamond-pulse { animation: diaPulse 7s ease-in-out infinite; }
+        @keyframes diaPulse { 0%,100% { opacity:0.3; } 50% { opacity:0.65; } }
 
-  @keyframes beamSweep{ 0%{ transform: translateX(-130px); } 45%{ transform: translateX(572px); } 100%{ transform: translateX(572px); } }
-  .beam{ animation: beamSweep 8s ease-in-out infinite; }
+        .nav-dot { animation: navPulse 4.8s ease-in-out infinite; transform-origin: center; }
+        .nav-dot.n2 { animation-delay: 1.2s; }
+        .nav-dot.n3 { animation-delay: 2.4s; }
+        .nav-dot.n4 { animation-delay: 3.6s; }
+        @keyframes navPulse {
+          0%, 75%, 100% { opacity: 0.55; transform: scale(1); filter: none; }
+          8% { opacity: 1; transform: scale(1.35); filter: drop-shadow(0 0 3px rgba(59,130,246,0.9)); }
+          20% { opacity: 0.55; transform: scale(1); filter: none; }
+        }
 
-  @keyframes megaMove{ 0%{ transform: translateX(-120px); } 100%{ transform: translateX(1720px); } }
-  .megascan{ animation: megaMove 10s linear infinite; }
+        .status-pulse { animation: statusPulse 4s ease-in-out infinite; transform-origin: center; }
+        @keyframes statusPulse { 0%,100% { opacity:0.6; transform:scale(0.9);} 50% { opacity:1; transform:scale(1.2);} }
 
-  @keyframes gridShift{ 0%{ transform: translate(0,0); } 100%{ transform: translate(40px,40px); } }
-  .bp-grid-shift{ animation: gridShift 22s linear infinite; }
+        .node-pulse { animation: nodePulse 5s ease-in-out infinite; transform-origin: center; }
+        .node-pulse.k2 { animation-delay: 0.8s; }
+        .node-pulse.k3 { animation-delay: 1.6s; }
+        .node-pulse.k4 { animation-delay: 2.4s; }
+        .node-pulse.k5 { animation-delay: 3.2s; }
+        .node-pulse.k6 { animation-delay: 4s; }
+        @keyframes nodePulse { 0%,100% { opacity:0.35; transform:scale(1);} 50% { opacity:0.9; transform:scale(1.6);} }
 
-  @keyframes coordFade{ 0%,100%{ opacity:0; } 50%{ opacity:1; } }
-  .coord-fade{ animation: coordFade 6s ease-in-out infinite; }
+        .line-fade { animation: lineFade 8s ease-in-out infinite; }
+        .line-fade.l2 { animation-delay: 3s; }
+        @keyframes lineFade { 0%,100% { opacity:0.8; } 50% { opacity:1; } }
 
-  @keyframes ghFloat{ 0%,100%{ transform: translateY(0); } 50%{ transform: translateY(-4px); } }
-  .gh-link .gh-logo{ animation: ghFloat 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-  .gh-link .gh-underline{ transition: transform .35s ease; transform: scaleX(1); transform-box: fill-box; transform-origin: left; }
-  .gh-link:hover .gh-underline{ transform: scaleX(1.03); }
-  .gh-link .gh-user{ transition: fill .3s ease; }
-  .gh-link:hover .gh-user{ fill:#60A5FA; }
+        .cursor-blink { animation: blink 1.1s steps(1) infinite; }
+        @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
 
-  @keyframes typeStatus{ 0%{ clip-path: inset(0 100% 0 0); } 35%{ clip-path: inset(0 0 0 0); } 85%{ clip-path: inset(0 0 0 0); } 100%{ clip-path: inset(0 100% 0 0); } }
-  .status-type{ animation: typeStatus 6s steps(18) infinite; }
+        .name-cursor { animation: blink 1s steps(1) infinite; }
 
-  @keyframes scrollMove{ 0%,100%{ transform: translateY(0); } 50%{ transform: translateY(64px); } }
-  .scrollbar-thumb{ animation: scrollMove 7s ease-in-out infinite; }
+        .name-underline { animation: nameUnderline 8s ease-in-out infinite; }
+        @keyframes nameUnderline {
+          0%, 100% { transform: scaleX(0.583); opacity: 0.4; }
+          50% { transform: scaleX(1); opacity: 0.65; }
+        }
 
-  @keyframes activeLinePulse{ 0%,100%{ opacity:.6; } 50%{ opacity:1; } }
-  .active-line{ animation: activeLinePulse 3.2s ease-in-out infinite; }
+        .ring-rotate { animation: ringRotate 55s linear infinite; transform-origin: 1300px 252px; }
+        @keyframes ringRotate { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
 
-  @keyframes microDot{ 0%,100%{ opacity:.25; } 50%{ opacity:.7; } }
-  .micro-dot{ animation: microDot 4s ease-in-out infinite; }
+        .ring-rotate-rev { animation: ringRotateRev 65s linear infinite; transform-origin: 1300px 252px; }
+        @keyframes ringRotateRev { from { transform: rotate(0deg);} to { transform: rotate(-360deg);} }
 
-  @keyframes glowPulse{ 0%,100%{ opacity:.55; transform: scale(1); } 50%{ opacity:.9; transform: scale(1.045); } }
-  .blob-glow{ transform-box: fill-box; transform-origin: center; animation: glowPulse 6s ease-in-out infinite; }
+        .orbit-dot { animation: orbitSpin 22s linear infinite; transform-origin: 1300px 252px; }
+        .orbit-dot.o2 { animation-duration: 31s; animation-direction: reverse; }
+        .orbit-dot.o3 { animation-duration: 43s; }
+        @keyframes orbitSpin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
 
-  @keyframes bdotFloat{ 0%,100%{ transform: translate(0,0); } 50%{ transform: translate(6px,-8px); } }
-  .bdot{ animation: bdotFloat 5s ease-in-out infinite alternate, dotPulseOp 2.8s ease-in-out infinite; }
+        .particle { animation: drift 11s ease-in-out infinite; }
+        .particle.d1 { animation-duration: 8s; }
+        .particle.d2 { animation-duration: 11s; }
+        .particle.d3 { animation-duration: 14s; }
+        .particle.d4 { animation-duration: 17s; }
+        @keyframes drift { 0%,100% { transform: translate(0,0); opacity:0.15; } 50% { transform: translate(6px,-9px); opacity:0.5; } }
 
-  @keyframes particleFloat{ 0%,100%{ transform: translate(0,0); } 50%{ transform: translate(8px,-10px); } }
-  .particle{ animation: particleFloat 7s ease-in-out infinite; }
+        .scan-move { animation: scanMove 16s linear infinite; }
+        @keyframes scanMove {
+          0% { transform: translateX(-120px); opacity: 0; }
+          8% { opacity: 1; }
+          92% { opacity: 1; }
+          100% { transform: translateX(1500px); opacity: 0; }
+        }
 
-  @keyframes fadeUp{ 0%{ opacity:0; transform: translateY(10px); } 100%{ opacity:1; transform: translateY(0); } }
-  .fade-up{ animation: fadeUp .9s ease forwards; }
+        .crosshair-spin { animation: chSpin 30s linear infinite; transform-origin: 705px 375px; }
+        @keyframes chSpin {
+          0% { transform: rotate(0deg) scale(1); }
+          50% { transform: rotate(180deg) scale(1.05); }
+          100% { transform: rotate(360deg) scale(1); }
+        }
 
-  @keyframes stepDot{ 0%,100%{ opacity:.6; } 50%{ opacity:1; } }
-  .step-dot{ animation: stepDot 2.6s ease-in-out infinite; }
+        .bg-crosshair { animation: bgChSpin 36s linear infinite; transform-origin: 985px 440px; }
+        @keyframes bgChSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
-  @media (prefers-reduced-motion: reduce){
-    *{ animation-duration: 0.001s !important; animation-iteration-count: 1 !important; }
-  }
-]]>
-</style>
+        .telemetry-arc { animation: telemetrySpin 26s linear infinite; transform-origin: 1300px 252px; }
+        @keyframes telemetrySpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
-<!-- background -->
-<rect x="0" y="0" width="1600" height="500" fill="#FAFAFA"/>
-<rect x="0" y="0" width="1600" height="500" fill="url(#gridPattern)" class="bp-grid"/>
-<rect class="megascan" x="0" y="0" width="100" height="500" fill="#2563EB" opacity="0.06"/>
+        .name-glow {
+          filter: drop-shadow(0 0 6px rgba(59,130,246,0.22)) brightness(1);
+          animation: namePulse 10s ease-in-out infinite;
+        }
+        @keyframes namePulse {
+          0%, 100% { filter: drop-shadow(0 0 6px rgba(59,130,246,0.22)) brightness(1); }
+          50% { filter: drop-shadow(0 0 10px rgba(59,130,246,0.34)) brightness(1.045); }
+        }
 
-<!-- ============ LEFT COLUMN ============ -->
+        .hello-fade { animation: helloFade 8s ease-in-out infinite; }
+        @keyframes helloFade { 0%,100% { opacity:0.65; } 50% { opacity:1; } }
 
-<!-- dot grid icon -->
-<g>
-  <circle cx="30" cy="30" r="2.6" fill="#0A0A0A"/>
-  <circle cx="42" cy="30" r="2.6" fill="#0A0A0A"/>
-  <circle cx="54" cy="30" r="2.6" fill="#2563EB"/>
-  <circle cx="30" cy="42" r="2.6" fill="#0A0A0A"/>
-  <circle cx="42" cy="42" r="2.6" fill="#0A0A0A"/>
-  <circle cx="54" cy="42" r="2.6" fill="#2563EB"/>
-  <circle cx="30" cy="54" r="2.6" fill="#0A0A0A"/>
-  <circle cx="42" cy="54" r="2.6" fill="#0A0A0A"/>
-  <circle cx="54" cy="54" r="2.6" fill="#2563EB"/>
-</g>
+        .gh-underline { animation: ghDraw 8s ease-in-out infinite; }
+        @keyframes ghDraw {
+          0% { stroke-dashoffset: 100; opacity: 0; }
+          35% { stroke-dashoffset: 0; opacity: 0.9; }
+          62% { stroke-dashoffset: 0; opacity: 0.9; }
+          82% { opacity: 0.3; }
+          100% { stroke-dashoffset: 100; opacity: 0; }
+        }
 
-<!-- prompt + developer mode -->
-<text class="mono" x="24" y="92" font-size="19" font-weight="700" fill="#0A0A0A">&gt;_</text>
-<text class="mono" x="24" y="110" font-size="10" letter-spacing="0.5" fill="#555555">DEVELOPER MODE: <tspan font-weight="700" fill="#2563EB">ON</tspan></text>
+        .corner-pulse { animation: cornerPulse 8s ease-in-out infinite; }
+        @keyframes cornerPulse { 0%,100% { opacity:0.55; } 50% { opacity:1; } }
 
-<!-- steps -->
-<line x1="30" y1="140" x2="30" y2="256" stroke="#E3E3E6" stroke-width="1"/>
-<g class="mono" font-size="11.5" letter-spacing="1" fill="#0A0A0A">
-  <circle class="step-dot" cx="30" cy="144" r="3" fill="#2563EB"/>
-  <text x="44" y="148">DEVELOP</text>
-  <circle class="step-dot" cx="30" cy="176" r="3" fill="#2563EB" style="animation-delay:.4s"/>
-  <text x="44" y="180">BUILD</text>
-  <circle class="step-dot" cx="30" cy="208" r="3" fill="#2563EB" style="animation-delay:.7s"/>
-  <text x="44" y="212">DEPLOY</text>
-  <circle class="step-dot" cx="30" cy="240" r="3" fill="#2563EB" style="animation-delay:1s"/>
-  <text x="44" y="244">REPEAT</text>
-</g>
+        .info-blink { animation: infoBlink 6s ease-in-out infinite; }
+        .info-blink.i2 { animation-delay: 1.5s; }
+        .info-blink.i3 { animation-delay: 3s; }
+        .info-blink.i4 { animation-delay: 4.5s; }
+        @keyframes infoBlink { 0%,100% { opacity:0.72; } 50% { opacity:1; } }
 
-<!-- deco circle + cross -->
-<circle class="spin-deco" cx="150" cy="330" r="42" fill="none" stroke="#dddddd" stroke-width="1" stroke-dasharray="4 4"/>
-<g stroke="#cccccc" stroke-width="1">
-  <line x1="122" y1="378" x2="168" y2="378"/>
-  <line x1="145" y1="355" x2="145" y2="401"/>
-</g>
+        .guide-breathe { animation: guideBreathe 10s ease-in-out infinite; }
+        .guide-breathe.gr { animation-delay: 0.6s; }
+        @keyframes guideBreathe { 0%,100% { transform: scaleX(0.85); opacity:0.5; } 50% { transform: scaleX(1.15); opacity:0.85; } }
 
-<!-- sys.loc box -->
-<rect x="20" y="452" width="222" height="30" fill="rgba(255,255,255,0.6)" stroke="#E3E3E6" stroke-width="1"/>
-<circle class="pulse-dot" cx="34" cy="467" r="3" fill="#2563EB"/>
-<text class="mono" x="46" y="471" font-size="10.5" fill="#333333">SYS.LOC: 12.9716&#176; N, 79.1588&#176; E</text>
+        .stream-line { animation: streamPulse 9s ease-in-out infinite; transform-origin: 0px 0px; }
+        .stream-line.s2 { animation-delay: 2.4s; }
+        .stream-line.s3 { animation-delay: 4.8s; }
+        @keyframes streamPulse { 0%,100% { transform: scaleX(0.4); opacity:0.2; } 50% { transform: scaleX(1); opacity:0.5; } }
+      ]]>
+    </style>
+  </defs>
 
-<!-- ============ CENTER HERO ============ -->
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="1500" height="500" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1500" height="500" fill="url(#dotGrid)" class="grid-pulse"/>
 
-<!-- version row -->
-<g>
-  <rect x="330" y="147.5" width="6" height="6" fill="none" stroke="#bbbbbb" stroke-width="1" transform="rotate(45 333 150.5)"/>
-  <rect x="350" y="148" width="130" height="1" fill="#E3E3E6"/>
-  <rect class="v-scan" x="350" y="148" width="52" height="1" fill="url(#vScanGrad)"/>
-  <text class="mono" x="720" y="153" font-size="10" letter-spacing="2" fill="#999999" text-anchor="middle">VERSION 1.0.0</text>
-  <rect x="960" y="148" width="130" height="1" fill="#E3E3E6"/>
-  <rect class="v-scan" x="960" y="148" width="52" height="1" fill="url(#vScanGrad)"/>
-  <rect x="1087" y="147.5" width="6" height="6" fill="none" stroke="#bbbbbb" stroke-width="1" transform="rotate(45 1090 150.5)"/>
-</g>
+    <!-- soft vertical spotlight band -->
+    <rect x="905" y="0" width="90" height="500" fill="url(#spotBand)"/>
 
-<!-- hero -->
-<text x="720" y="188" text-anchor="middle" font-size="18" font-weight="500" letter-spacing="2.5" fill="#6B7280">Hello, I'm</text>
-<text x="720" y="256" text-anchor="middle" font-size="58" font-weight="800" letter-spacing="3" fill="#0A0A0A">VIGNESHWARAN S</text>
-<line x1="640" y1="278" x2="800" y2="278" stroke="#E3E3E6" stroke-width="1"/>
-<circle class="pulse-dot" cx="720" cy="278" r="3" fill="#2563EB"/>
-
-<g class="fade-up gh-link" style="animation-delay:1s">
-  <g class="gh-logo">
-    <rect x="591" y="300" width="32" height="32" rx="8" fill="#0A0A0A"/>
-    <path transform="translate(600.5,309.5) scale(0.84)" fill="#ffffff" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-  </g>
-  <text class="mono" x="635" y="321" font-size="17" letter-spacing="0.4" fill="#0A0A0A">github.com/<tspan class="gh-user" fill="#2563EB">Vikki-2006</tspan></text>
-  <rect class="gh-underline" x="635" y="329.5" width="214" height="1.6" fill="#2563EB"/>
-</g>
-
-<!-- progress -->
-<g class="fade-up" style="animation-delay:1.2s">
-  <text class="mono" x="480" y="366" font-size="10" letter-spacing="1" fill="#666666">DEV:24.7%</text>
-  <text class="mono" x="960" y="366" font-size="10" letter-spacing="1" fill="#666666" text-anchor="end">EXP: &#8734;%</text>
-  <rect x="480" y="382" width="480" height="1" fill="#E3E3E6"/>
-  <rect class="flow-fill" y="382" height="1" fill="#2563EB"/>
-  <g class="spin-mark">
-    <circle cx="720" cy="382" r="6" fill="none" stroke="#2563EB" stroke-width="1" stroke-dasharray="2 3"/>
-  </g>
-  <circle cx="720" cy="382" r="2" fill="#2563EB"/>
-  <rect x="480" y="402" width="480" height="1" fill="#E3E3E6"/>
-  <rect x="480" y="402" width="154" height="1" fill="#2563EB"/>
-  <rect x="800" y="396" width="70" height="11" fill="url(#hazardPattern)"/>
-</g>
-
-<!-- ============ RIGHT COLUMN — top decos ============ -->
-
-<rect x="1560" y="8" width="32" height="28" fill="url(#hazardPattern)"/>
-
-<g class="spin-rings">
-  <circle cx="1250" cy="36" r="20" fill="none" stroke="#dddddd" stroke-width="1"/>
-  <circle cx="1250" cy="36" r="13" fill="none" stroke="#e5e5e5" stroke-width="1"/>
-  <circle cx="1250" cy="36" r="2.5" fill="#2563EB"/>
-</g>
-
-<circle class="pulse-dot" cx="1410" cy="36" r="2.8" fill="#2563EB"/>
-<text class="mono" x="1420" y="40" font-size="10" letter-spacing="2" fill="#333333">ONLINE</text>
-
-<!-- plus symbols -->
-<text class="plus-sym mono" x="1170" y="190" font-size="12" fill="rgba(96,165,250,.4)" style="animation-delay:.4s">+</text>
-<text class="plus-sym mono" x="1560" y="380" font-size="12" fill="rgba(96,165,250,.4)" style="animation-delay:1.6s">+</text>
-<text class="plus-sym mono" x="1480" y="460" font-size="12" fill="rgba(96,165,250,.4)" style="animation-delay:.9s">+</text>
-
-<!-- ===== black HUD panel — far right, ~75% size, vertically centered ===== -->
-<g>
-  <ellipse class="blob-glow" cx="1345" cy="248" rx="190" ry="192" fill="url(#blobGlow)" filter="url(#softBlur30)"/>
-
-  <g transform="translate(1150,70) scale(0.75)">
-    <path d="M260,4 C372,4 516,58 516,214 C516,336 452,476 258,476 C104,476 4,378 4,218 C4,82 132,4 260,4 Z" fill="url(#blobFill)"/>
-    <g clip-path="url(#blobClip)">
-      <rect x="0" y="0" width="520" height="480" fill="url(#darkGrid)" class="bp-grid bp-grid-shift"/>
-      <rect x="0" y="0" width="520" height="480" fill="url(#darkGridFine)"/>
-      <rect x="0" y="0" width="520" height="480" filter="url(#noiseTex)" opacity="0.5"/>
-      <rect x="0" y="0" width="520" height="480" fill="url(#depthLayer)"/>
-
-      <!-- glowing floating dots -->
-      <circle class="bdot" cx="60" cy="70" r="3" fill="url(#dotGlow)"/>
-      <circle class="bdot" cx="140" cy="40" r="2.4" fill="url(#dotGlow)" style="animation-delay:.6s,.2s"/>
-      <circle class="bdot" cx="330" cy="90" r="2.8" fill="url(#dotGlow)" style="animation-delay:1.1s,.5s"/>
-      <circle class="bdot" cx="410" cy="180" r="2.2" fill="url(#dotGlow)" style="animation-delay:1.6s,.8s"/>
-      <circle class="bdot" cx="480" cy="300" r="3.2" fill="url(#dotGlow)" style="animation-delay:2s,1.1s"/>
-      <circle class="bdot" cx="380" cy="400" r="2.6" fill="url(#dotGlow)" style="animation-delay:.3s,1.4s"/>
-      <circle class="bdot" cx="220" cy="430" r="2.4" fill="url(#dotGlow)" style="animation-delay:2.4s,1.7s"/>
-      <circle class="bdot" cx="90" cy="360" r="2.8" fill="url(#dotGlow)" style="animation-delay:1.3s,.4s"/>
-      <circle class="bdot" cx="40" cy="230" r="2.2" fill="url(#dotGlow)" style="animation-delay:.8s,1.9s"/>
-      <circle class="bdot" cx="270" cy="250" r="2.6" fill="url(#dotGlow)" style="animation-delay:1.9s,.9s"/>
-
-      <!-- scan lines -->
-      <rect class="scan-line" x="0" y="106" width="182" height="1" fill="url(#scanGrad)"/>
-      <rect class="scan-line-2" x="0" y="326" width="182" height="1" fill="url(#scanGrad)"/>
-
-      <!-- sweeping beam -->
-      <rect class="beam" x="0" y="0" width="83" height="480" fill="url(#beamGrad)"/>
+    <!-- guide line with diamond ticks -->
+    <g stroke="#242D42" stroke-width="1" class="diamond-pulse">
+      <line x1="300" y1="150" x2="470" y2="150"/>
+      <line x1="985" y1="150" x2="1150" y2="150"/>
+    </g>
+    <g fill="none" stroke="#3B4560" stroke-width="1" class="diamond-pulse">
+      <rect x="326" y="146" width="8" height="8" transform="rotate(45 330 150)"/>
+      <rect x="1061" y="146" width="8" height="8" transform="rotate(45 1065 150)"/>
     </g>
 
-    <!-- HUD line-art (own 520x480 coordinate space) -->
-    <g stroke="rgba(148,163,184,.4)" stroke-width="1.2" fill="none">
-      <path d="M28 24 L28 40 M28 24 L44 24"/>
-      <path d="M492 24 L492 40 M492 24 L476 24"/>
-      <path d="M28 456 L28 440 M28 456 L44 456"/>
-      <path d="M492 456 L492 440 M492 456 L476 456"/>
+    <!-- tiny system labels near center (non-disruptive) -->
+    <text x="705" y="134" text-anchor="middle" font-family="var(--font-mono)" font-size="8.5" fill="#94A3B8" opacity="0.32" letter-spacing="2.5">DEVELOPER PROFILE</text>
+    <text x="1220" y="16" text-anchor="middle" font-family="var(--font-mono)" font-size="8" fill="#94A3B8" opacity="0.4" letter-spacing="1">V.2026</text>
+
+    <!-- micro-grid active nodes -->
+    <g fill="#3B82F6">
+      <circle cx="330" cy="90" r="1.6" class="node-pulse k1"/>
+      <circle cx="630" cy="330" r="1.6" class="node-pulse k2"/>
+      <circle cx="930" cy="90" r="1.6" class="node-pulse k3"/>
+      <circle cx="1170" cy="330" r="1.6" class="node-pulse k4"/>
+      <circle cx="90" cy="330" r="1.6" class="node-pulse k5"/>
+      <circle cx="1230" cy="90" r="1.6" class="node-pulse k6"/>
     </g>
 
-    <!-- radar -->
-    <g class="spin-radar" style="transform-origin:112px 96px">
-      <circle cx="112" cy="96" r="46" fill="none" stroke="rgba(96,165,250,.28)" stroke-width="1"/>
-      <circle cx="112" cy="96" r="30" fill="none" stroke="rgba(96,165,250,.22)" stroke-width="1" stroke-dasharray="2 5"/>
-      <circle cx="112" cy="96" r="16" fill="none" stroke="rgba(96,165,250,.22)" stroke-width="1" stroke-dasharray="2 5"/>
-      <line x1="112" y1="96" x2="112" y2="50" stroke="rgba(96,165,250,.55)" stroke-width="1.4"/>
-    </g>
-    <circle cx="112" cy="96" r="2.4" class="hud-node"/>
-
-    <!-- dashed circle -->
-    <circle class="spin-dashed" cx="430" cy="330" r="70" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="1" stroke-dasharray="2 6"/>
-
-    <!-- hexagon wireframe -->
-    <g class="hex-float" transform="translate(420,74)">
-      <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="none" stroke="rgba(148,163,184,.4)" stroke-width="1"/>
-      <polygon points="0,-12 10,-6 10,6 0,12 -10,6 -10,-6" fill="none" stroke="rgba(96,165,250,.3)" stroke-width="1"/>
+    <!-- large faint background technical crosshair -->
+    <g class="bg-crosshair" stroke="#2B3552" stroke-width="1" opacity="0.15">
+      <line x1="945" y1="440" x2="1025" y2="440"/>
+      <line x1="985" y1="400" x2="985" y2="480"/>
+      <circle cx="985" cy="440" r="22" fill="none"/>
     </g>
 
-    <!-- circuit traces -->
-    <path d="M60 210 L150 195 L150 240 L210 250" fill="none" stroke="rgba(96,165,250,.35)" stroke-width="1" stroke-dasharray="3 4"/>
-    <circle cx="60" cy="210" r="2.4" class="hud-node" style="animation-delay:.3s"/>
-    <circle cx="150" cy="195" r="2.4" class="hud-node" style="animation-delay:1.1s"/>
-    <circle cx="150" cy="240" r="2.4" class="hud-node" style="animation-delay:1.9s"/>
-    <circle cx="210" cy="250" r="2.4" class="hud-node" style="animation-delay:.7s"/>
-
-    <path d="M470 130 L470 200 L440 200" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
-    <circle cx="470" cy="130" r="2" class="hud-node" style="animation-delay:.5s"/>
-    <circle cx="440" cy="200" r="2" class="hud-node" style="animation-delay:1.6s"/>
-
-    <!-- measurement lines -->
-    <line x1="60" y1="410" x2="220" y2="410" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
-    <line x1="60" y1="405" x2="60" y2="415" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
-    <line x1="220" y1="405" x2="220" y2="415" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
-
-    <!-- crosshairs -->
-    <g stroke="rgba(148,163,184,.5)" stroke-width="1" fill="none">
-      <line x1="470" y1="240" x2="470" y2="252"/>
-      <line x1="464" y1="246" x2="476" y2="246"/>
-      <circle cx="470" cy="246" r="6"/>
-    </g>
-    <g stroke="rgba(148,163,184,.4)" stroke-width="1" fill="none">
-      <line x1="40" y1="130" x2="40" y2="142"/>
-      <line x1="34" y1="136" x2="46" y2="136"/>
+    <!-- small data-stream telemetry lines -->
+    <g stroke="#3B4560" stroke-width="1">
+      <line x1="95" y1="130" x2="135" y2="130" class="stream-line s1"/>
+      <line x1="1430" y1="150" x2="1460" y2="150" class="stream-line s2"/>
+      <line x1="965" y1="85" x2="1000" y2="85" class="stream-line s3"/>
     </g>
 
-    <!-- blueprint arrow -->
-    <path d="M250 60 L285 60 M278 54 L285 60 L278 66" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
-
-    <!-- extra thin circuit traces -->
-    <path d="M320 380 L320 420 L370 420 L370 400" fill="none" stroke="rgba(148,163,184,.22)" stroke-width="1" stroke-dasharray="2 3"/>
-    <circle cx="320" cy="380" r="1.8" class="hud-node" style="animation-delay:.9s"/>
-    <circle cx="370" cy="400" r="1.8" class="hud-node" style="animation-delay:2.1s"/>
-    <path d="M80 60 L80 90 L110 90" fill="none" stroke="rgba(148,163,184,.18)" stroke-width="1"/>
-    <circle cx="80" cy="60" r="1.6" class="hud-node" style="animation-delay:1.4s"/>
-
-    <!-- micro dot grid -->
-    <g fill="rgba(148,163,184,.4)">
-      <circle class="micro-dot" cx="260" cy="150" r="1" style="animation-delay:.2s"/>
-      <circle class="micro-dot" cx="276" cy="150" r="1" style="animation-delay:.6s"/>
-      <circle class="micro-dot" cx="292" cy="150" r="1" style="animation-delay:1s"/>
-      <circle class="micro-dot" cx="260" cy="166" r="1" style="animation-delay:1.4s"/>
-      <circle class="micro-dot" cx="276" cy="166" r="1" style="animation-delay:1.8s"/>
-      <circle class="micro-dot" cx="292" cy="166" r="1" style="animation-delay:2.2s"/>
+    <!-- scanning line (weaker behind the main name) -->
+    <g mask="url(#nameDip)">
+      <rect x="0" y="0" width="120" height="500" fill="url(#scanGrad)" opacity="0" class="scan-move"/>
     </g>
 
-    <!-- small geometric decorations -->
-    <rect x="360" y="60" width="8" height="8" fill="none" stroke="rgba(148,163,184,.3)" stroke-width="1" transform="rotate(20 364 64)"/>
-    <path d="M96 300 L104 292 L112 300 L104 308 Z" fill="none" stroke="rgba(96,165,250,.25)" stroke-width="1"/>
+    <!-- corner diagonal hatch, top-right -->
+    <g stroke="#26304A" stroke-width="2" opacity="0.7" class="corner-pulse">
+      <line x1="1450" y1="10" x2="1462" y2="22"/>
+      <line x1="1460" y1="8" x2="1478" y2="26"/>
+      <line x1="1470" y1="6" x2="1488" y2="24"/>
+    </g>
 
-    <!-- technical labels -->
-    <text class="mono" x="322" y="376" font-size="7.5" letter-spacing="0.5" fill="rgba(148,163,184,.45)">SEC//A4</text>
-    <text class="mono" x="42" y="98" font-size="7.5" letter-spacing="0.5" fill="rgba(148,163,184,.4)">REF-02</text>
-    <text class="mono" x="255" y="146" font-size="7.5" letter-spacing="0.5" fill="rgba(148,163,184,.4)">GRID//09</text>
-
-    <!-- coordinate labels -->
-    <text class="mono coord-fade" x="20" y="16" font-size="9" letter-spacing="0.5" fill="rgba(148,163,184,.65)" style="animation-delay:0s">X:428.5&#160;&#160;Y:190.2</text>
-    <text class="mono coord-fade" x="330" y="472" font-size="9" letter-spacing="0.5" fill="rgba(148,163,184,.65)" style="animation-delay:2s">LAT 12.97&#176;&#160;&#160;LON 79.15&#176;</text>
-    <text class="mono coord-fade" x="24" y="470" font-size="9" letter-spacing="0.5" fill="rgba(148,163,184,.65)" style="animation-delay:4s">NODE//0x4F2A</text>
-
-    <!-- small transparent HUD stat card (nested inside panel, upper area, clear of editor) -->
+    <!-- ============ TOP LEFT: dot grid + prompt ============ -->
     <g>
-      <rect x="270" y="69" width="100" height="52" rx="9" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
-      <circle class="pulse-dot" cx="282" cy="85" r="3" fill="#2563EB"/>
-      <text class="mono" x="290" y="88" font-size="12" letter-spacing="1" fill="#9CA3AF">SYS &#160;ACTIVE</text>
-      <text class="mono" x="282" y="104" font-size="12" letter-spacing="1" fill="#9CA3AF">CPU &#160;24%</text>
-      <text class="mono" x="282" y="120" font-size="12" letter-spacing="1" fill="#9CA3AF">NET &#160;OK</text>
-    </g>
-
-    <!-- code editor card: nested + centered + scaled to sit fully inside the organic panel (>=40px clearance to boundary) -->
-    <g transform="translate(54.16,22.54) scale(0.83)">
-    <g class="float" style="animation-duration:6s">
-      <rect x="52" y="150" width="392" height="224" rx="14" fill="rgba(20,20,22,0.9)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-      <rect x="52" y="150" width="392" height="38" rx="14" fill="rgba(255,255,255,0.03)"/>
-      <rect x="52" y="176" width="392" height="12" fill="rgba(255,255,255,0.03)"/>
-      <line x1="52" y1="188" x2="444" y2="188" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
-      <circle cx="72" cy="169" r="4.5" fill="#FF5F57"/>
-      <circle cx="88" cy="169" r="4.5" fill="#FEBC2E"/>
-      <circle cx="104" cy="169" r="4.5" fill="#28C840"/>
-      <circle cx="128" cy="169" r="3" fill="#60A5FA"/>
-      <text class="mono" x="138" y="173" font-size="11" fill="#9CA3AF">developer.ts</text>
-
-      <rect class="active-line" x="66" y="199" width="368" height="26" fill="rgba(96,165,250,0.07)"/>
-      <rect class="active-line" x="66" y="199" width="2" height="26" fill="rgba(96,165,250,0.6)"/>
-
-      <g class="mono" font-size="13" fill="#D1D5DB">
-        <text x="66" y="216"><tspan fill="#4B5563">01</tspan>&#160;&#160;<tspan fill="#60A5FA">const</tspan> <tspan fill="#F3F4F6" font-weight="700">developer</tspan> = {</text>
-        <text x="66" y="241"><tspan fill="#4B5563">02</tspan>&#160;&#160;&#160;&#160;focus: [<tspan fill="#6EE7B7">'Full Stack'</tspan>, <tspan fill="#6EE7B7">'AI'</tspan>],</text>
-        <text x="66" y="266"><tspan fill="#4B5563">03</tspan>&#160;&#160;&#160;&#160;stack: [<tspan fill="#6EE7B7">'Python'</tspan>, <tspan fill="#6EE7B7">'React'</tspan>, <tspan fill="#6EE7B7">'FastAPI'</tspan>],</text>
-        <text x="66" y="291"><tspan fill="#4B5563">04</tspan>&#160;&#160;&#160;&#160;mindset: <tspan fill="#6EE7B7">'Continuous Learning'</tspan>,</text>
-        <text x="66" y="316"><tspan fill="#4B5563">05</tspan>&#160;&#160;&#160;&#160;status: <tspan fill="#6EE7B7">'Building'</tspan></text>
-        <text x="66" y="341"><tspan fill="#4B5563">06</tspan>&#160;&#160;};<tspan class="cursor" fill="#2563EB">&#9608;</tspan></text>
+      <g fill="#5C6884">
+        <circle cx="30" cy="24" r="2.3"/>
+        <circle cx="42" cy="24" r="2.3"/>
+        <circle cx="54" cy="24" r="2.3" fill="#3B82F6"/>
+        <circle cx="30" cy="36" r="2.3"/>
+        <circle cx="42" cy="36" r="2.3"/>
+        <circle cx="54" cy="36" r="2.3"/>
+        <circle cx="30" cy="48" r="2.3"/>
+        <circle cx="42" cy="48" r="2.3"/>
+        <circle cx="54" cy="48" r="2.3"/>
       </g>
-      <g class="status-type mono" font-size="9.5" fill="#60A5FA">
-        <text x="66" y="360">&gt;&#160;compiling...&#160;done &#8730;</text>
+
+      <g font-family="var(--font-mono)">
+        <text x="30" y="98" font-size="18" fill="#F8FAFC">&gt;<tspan class="cursor-blink">_</tspan></text>
+        <text x="30" y="114" font-size="10.5" fill="#7C89A3" letter-spacing="0.6">DEVELOPER MODE: <tspan fill="#4C8CFF">ON</tspan></text>
       </g>
-      <rect x="432" y="158" width="3" height="200" rx="1.5" fill="rgba(255,255,255,0.08)"/>
-      <rect class="scrollbar-thumb" x="432" y="158" width="3" height="70" rx="1.5" fill="rgba(255,255,255,0.18)"/>
-    </g>
     </g>
 
-    <!-- inner vignette for depth -->
-    <g clip-path="url(#blobClip)">
-      <rect x="0" y="0" width="520" height="480" fill="#000000" mask="url(#vignetteMask)"/>
+    <!-- ============ LEFT NAV LIST ============ -->
+    <g font-family="var(--font-mono)" font-size="14" fill="#D7DCE6" letter-spacing="0.5">
+      <circle cx="35" cy="151" r="3.4" fill="#3B82F6" class="nav-dot n1"/>
+      <text x="52" y="156" font-weight="600">DEVELOP</text>
+
+      <circle cx="35" cy="181" r="3.4" fill="#3B82F6" class="nav-dot n2"/>
+      <text x="52" y="186" font-weight="600">BUILD</text>
+
+      <circle cx="35" cy="211" r="3.4" fill="#3B82F6" class="nav-dot n3"/>
+      <text x="52" y="216" font-weight="600">DEPLOY</text>
+
+      <circle cx="35" cy="241" r="3.4" fill="#3B82F6" class="nav-dot n4"/>
+      <text x="52" y="246" font-weight="600">REPEAT</text>
     </g>
+
+    <!-- decorative dashed circle bottom-left -->
+    <circle cx="155" cy="330" r="45" fill="none" stroke="#1E2740" stroke-width="1" stroke-dasharray="3 5"/>
+    <g stroke="#3B4560" stroke-width="1.2">
+      <line x1="155" y1="366" x2="155" y2="382"/>
+      <line x1="147" y1="374" x2="163" y2="374"/>
+    </g>
+
+    <!-- bottom-left SYS.LOC -->
+    <g font-family="var(--font-mono)" font-size="10.5" fill="#7C89A3" letter-spacing="0.4">
+      <rect x="20" y="452" width="230" height="26" rx="5" fill="none" stroke="#1B2233" stroke-width="1"/>
+      <circle cx="36" cy="465" r="2.6" fill="#3B82F6" class="status-pulse"/>
+      <text x="46" y="469" class="info-blink">SYS.LOC: 12.9716&#176; N, 79.1888&#176; E</text>
+    </g>
+
+    <!-- ============ CENTER CONTENT ============ -->
+    <g text-anchor="middle" font-family="var(--font-sans)">
+      <text x="705" y="154" text-anchor="middle" font-family="var(--font-mono)" font-size="11" fill="#5C6884" letter-spacing="3" class="info-blink i3">VERSION 1.0.0</text>
+
+      <circle cx="637" cy="183" r="1.8" fill="#3B82F6" class="status-pulse"/>
+      <text x="705" y="188" font-size="17" font-weight="400" letter-spacing="1.5" fill="#94A3B8" class="hello-fade">Hello, I&#8217;m</text>
+
+      <text x="705" y="252" font-family="var(--font-name)" font-size="60" font-weight="800" fill="url(#nameGrad)" letter-spacing="-1.8" textLength="560" lengthAdjust="spacingAndGlyphs">VIGNESHWARAN S</text>
+      <rect x="998" y="224" width="2.4" height="16" fill="#3B82F6" class="name-cursor"/>
+      <line x1="675" y1="266" x2="735" y2="266" stroke="#4C8CFF" stroke-width="1" opacity="0.55" class="name-underline" style="transform-origin:705px 266px;"/>
+
+      <circle cx="705" cy="278" r="2.6" fill="#3B82F6"/>
+      <line x1="565" y1="278" x2="685" y2="278" stroke="#232B40" stroke-width="1" class="guide-breathe" style="transform-origin:685px 278px;"/>
+      <line x1="725" y1="278" x2="845" y2="278" stroke="#232B40" stroke-width="1" class="guide-breathe gr" style="transform-origin:725px 278px;"/>
+    </g>
+
+    <!-- GitHub row -->
+    <g transform="translate(585,300)">
+      <rect x="0" y="0" width="30" height="30" rx="8" fill="#11151F" stroke="#242D42" stroke-width="1"/>
+      <path transform="translate(6,6) scale(0.72)" fill="#D7DCE6" d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.12.82-.27.82-.6 0-.3-.01-1.08-.02-2.12-3.34.75-4.04-1.65-4.04-1.65-.55-1.42-1.34-1.8-1.34-1.8-1.09-.77.08-.75.08-.75 1.21.09 1.85 1.28 1.85 1.28 1.07 1.87 2.8 1.33 3.49 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.36-5.47-6.04 0-1.33.46-2.42 1.23-3.28-.12-.31-.53-1.56.12-3.24 0 0 1-.33 3.3 1.25a11.2 11.2 0 0 1 6 0c2.28-1.58 3.29-1.25 3.29-1.25.65 1.68.24 2.93.12 3.24.77.86 1.23 1.95 1.23 3.28 0 4.7-2.81 5.72-5.49 6.03.43.38.81 1.13.81 2.28 0 1.64-.02 2.97-.02 3.37 0 .33.22.72.83.6C20.56 22.34 24 17.73 24 12.3 24 5.5 18.63 0 12 0Z"/>
+
+      <text x="42" y="21" font-family="var(--font-mono)" font-size="17" fill="#B6BECF">github.com/<tspan fill="#4C8CFF">Vikki-2006</tspan></text>
+      <line x1="42" y1="26" x2="228" y2="26" stroke="#4C8CFF" stroke-width="1.3" pathLength="100" stroke-dasharray="100" class="gh-underline"/>
+    </g>
+
+    <!-- progress row -->
+    <g font-family="var(--font-mono)" font-size="11" fill="#7C89A3" letter-spacing="0.5">
+      <text x="475" y="362">DEV: 24.7%</text>
+      <text x="945" y="362" text-anchor="end">EXP: &#8734;</text>
+    </g>
+    <line x1="475" y1="378" x2="620" y2="378" stroke="url(#accentLine)" stroke-width="1.6"/>
+    <line x1="800" y1="378" x2="945" y2="378" stroke="#232B40" stroke-width="1"/>
+
+    <g transform="translate(705,378)">
+      <circle r="10" fill="none" stroke="#2B3552" stroke-width="1" class="crosshair-spin"/>
+      <circle r="2.4" fill="#3B82F6" class="status-pulse"/>
+      <g stroke="#2B3552" stroke-width="1" class="crosshair-spin">
+        <line x1="-14" y1="0" x2="-11" y2="0"/>
+        <line x1="11" y1="0" x2="14" y2="0"/>
+        <line x1="0" y1="-14" x2="0" y2="-11"/>
+        <line x1="0" y1="11" x2="0" y2="14"/>
+      </g>
+    </g>
+
+    <g stroke="#2E3852" stroke-width="2" opacity="0.8">
+      <line x1="815" y1="404" x2="822" y2="396"/>
+      <line x1="825" y1="404" x2="832" y2="396"/>
+      <line x1="835" y1="404" x2="842" y2="396"/>
+      <line x1="845" y1="404" x2="852" y2="396"/>
+    </g>
+
+    <!-- ============ TOP RIGHT DETAILS ============ -->
+    <g font-family="var(--font-mono)" font-size="10.5" fill="#7C89A3" letter-spacing="1.2">
+      <circle cx="1385" cy="40" r="2.6" fill="#22D3EE" class="status-pulse"/>
+      <text x="1396" y="44" class="info-blink i2">ONLINE</text>
+    </g>
+
+    <g transform="translate(1220,40)">
+      <circle r="15" fill="none" stroke="#232B40" stroke-width="1"/>
+      <circle r="2.2" fill="#3B82F6" class="status-pulse"/>
+    </g>
+
+    <g transform="translate(1128,72)" stroke="#232B40" stroke-width="1" fill="none" opacity="0.7">
+      <path d="M12,0 L24,7 L24,20 L12,27 L0,20 L0,7 Z"/>
+    </g>
+    <text x="1128" y="94" font-family="var(--font-mono)" font-size="9" fill="#5C6884" class="info-blink i4">X:429.5 Y:190.2</text>
+
+    <!-- ============ RIGHT: CIRCULAR PANEL ============ -->
+    <g>
+      <circle cx="1300" cy="252" r="185" fill="url(#panelGlow)"/>
+      <circle cx="1300" cy="252" r="152" fill="url(#circleGlow)"/>
+      <g class="ring-rotate">
+        <circle cx="1300" cy="252" r="152" fill="none" stroke="#3B82F6" stroke-width="1.1" stroke-dasharray="2 11" opacity="0.5"/>
+      </g>
+      <g class="ring-rotate-rev">
+        <circle cx="1300" cy="252" r="166" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="1 15" opacity="0.35"/>
+      </g>
+      <g class="orbit-dot o1">
+        <circle cx="1452" cy="252" r="2.6" fill="#22D3EE" opacity="0.85"/>
+      </g>
+      <g class="orbit-dot o2">
+        <circle cx="1466" cy="252" r="2.2" fill="#8B5CF6" opacity="0.55"/>
+      </g>
+      <g class="orbit-dot o3">
+        <circle cx="1478" cy="252" r="2" fill="#3B82F6" opacity="0.5"/>
+      </g>
+
+      <circle cx="1300" cy="252" r="140" fill="url(#panelInterior)" stroke="#2A3B55" stroke-width="1" stroke-opacity="0.65"/>
+      <circle cx="1300" cy="252" r="133" fill="none" stroke="#334766" stroke-width="1" opacity="0.25"/>
+      <g class="telemetry-arc">
+        <circle cx="1300" cy="252" r="148" fill="none" stroke="#60A5FA" stroke-width="1" opacity="0.35" stroke-dasharray="251 678"/>
+      </g>
+
+      <g clip-path="url(#circleClip)">
+        <rect x="1150" y="102" width="300" height="300" fill="url(#dotGrid)" opacity="0.35"/>
+
+        <!-- small crosshair dotted node -->
+        <g transform="translate(1220,148)">
+          <circle r="13" fill="none" stroke="#26304A" stroke-width="1" stroke-dasharray="1 4"/>
+          <circle r="2.4" fill="#3B82F6" class="status-pulse"/>
+        </g>
+
+        <!-- stat box -->
+        <g transform="translate(1318,150)" font-family="var(--font-mono)" fill="#8B95A7">
+          <rect x="0" y="0" width="90" height="36" rx="6" fill="#10141F" stroke="#232B40" stroke-width="1"/>
+          <circle cx="11" cy="11" r="2" fill="#22D3EE" class="status-pulse"/>
+          <text x="18" y="14" font-size="8.5" fill="#CBD5E1">SYS ACTIVE</text>
+          <text x="9" y="25" font-size="8.5" class="info-blink">CPU <tspan fill="#67E8F9">24%</tspan></text>
+          <text x="9" y="33.5" font-size="8.5" class="info-blink i2">NET <tspan fill="#6EE7B7">OK</tspan></text>
+        </g>
+
+        <!-- terminal window -->
+        <g transform="translate(1195,186)">
+          <rect x="0" y="0" width="212" height="126" rx="7" fill="url(#termGrad)" stroke="#26344A" stroke-width="1"/>
+          <circle cx="13" cy="13" r="3" fill="#D9584C"/>
+          <circle cx="25" cy="13" r="3" fill="#DCAE4E"/>
+          <circle cx="37" cy="13" r="3" fill="#2FBF8C"/>
+          <text x="50" y="16.5" font-family="var(--font-mono)" font-size="9" fill="#64748B">developer.tsx</text>
+          <circle cx="197" cy="10.5" r="2.2" fill="#6EE7B7" class="status-pulse"/>
+
+          <g font-family="var(--font-mono)" font-size="9.5">
+            <text x="10" y="34" fill="#64748B">01</text>
+            <text x="30" y="34"><tspan fill="#4C8CFF">const</tspan><tspan fill="#CBD5E1"> developer = {</tspan></text>
+
+            <text x="10" y="48" fill="#64748B">02</text>
+            <text x="30" y="48" fill="#93C5FD">focus: [<tspan fill="#67E8F9">'Full Stack'</tspan>, <tspan fill="#67E8F9">'AI'</tspan>],</text>
+
+            <text x="10" y="62" fill="#64748B">03</text>
+            <text x="30" y="62" fill="#93C5FD" class="line-fade">stack: [<tspan fill="#67E8F9">'Python'</tspan>, <tspan fill="#67E8F9">'React'</tspan>, <tspan fill="#67E8F9">'FastAPI'</tspan>],</text>
+
+            <text x="10" y="76" fill="#64748B">04</text>
+            <text x="30" y="76" fill="#93C5FD" class="line-fade l2">mindset: <tspan fill="#67E8F9">'Continuous Learning'</tspan>,</text>
+
+            <text x="10" y="90" fill="#64748B">05</text>
+            <text x="30" y="90" fill="#93C5FD">status: <tspan fill="#6EE7B7">'Building'</tspan></text>
+
+            <text x="10" y="104" fill="#64748B">06</text>
+            <text x="30" y="104" fill="#CBD5E1">};</text>
+          </g>
+
+          <text x="10" y="117" font-family="var(--font-mono)" font-size="9" fill="#6EE7B7">&gt; compiled <tspan fill="#6EE7B7" class="cursor-blink">&#9608;</tspan></text>
+        </g>
+
+        <!-- lower-right micro node -->
+        <g transform="translate(1405,345)" stroke="#2B3552" stroke-width="1" opacity="0.7">
+          <line x1="-6" y1="0" x2="6" y2="0"/>
+          <line x1="0" y1="-6" x2="0" y2="6"/>
+        </g>
+        <circle cx="1385" cy="360" r="2" fill="#3B82F6" class="status-pulse"/>
+      </g>
+
+      <!-- outside-circle coordinate tags -->
+      <text x="1360" y="345" font-family="var(--font-mono)" font-size="9" fill="#4A5470">24.C//a4</text>
+      <text x="1300" y="435" text-anchor="middle" font-family="var(--font-mono)" font-size="9.5" fill="#4A5470" letter-spacing="0.5">LAT 12.97&#176; LON 79.15&#176;</text>
+    </g>
+
+    <!-- tiny drifting particles -->
+    <g fill="#4C8CFF">
+      <circle cx="640" cy="90" r="1.3" class="particle d1" opacity="0.3"/>
+      <circle cx="880" cy="420" r="1.2" class="particle d2" opacity="0.28"/>
+      <circle cx="1000" cy="70" r="1.3" class="particle d3" opacity="0.3" fill="#A78BFA"/>
+      <circle cx="200" cy="110" r="1.1" class="particle d4" opacity="0.22"/>
+      <circle cx="380" cy="420" r="1.2" class="particle d1" opacity="0.25" style="animation-delay:2s;"/>
+      <circle cx="500" cy="60" r="1" class="particle d2" opacity="0.2" style="animation-delay:4s;"/>
+      <circle cx="960" cy="440" r="1.2" class="particle d3" opacity="0.28" fill="#A78BFA" style="animation-delay:1s;"/>
+      <circle cx="1080" cy="410" r="1" class="particle d4" opacity="0.2" style="animation-delay:5s;"/>
+      <circle cx="120" cy="220" r="1.1" class="particle d1" opacity="0.22" style="animation-delay:3s;"/>
+      <circle cx="260" cy="60" r="1" class="particle d2" opacity="0.2" style="animation-delay:6s;"/>
+      <circle cx="760" cy="440" r="1.2" class="particle d3" opacity="0.25" style="animation-delay:2.5s;"/>
+      <circle cx="900" cy="150" r="1" class="particle d4" opacity="0.2" fill="#A78BFA" style="animation-delay:7s;"/>
+      <circle cx="60" cy="400" r="1.1" class="particle d1" opacity="0.22" style="animation-delay:5.5s;"/>
+      <circle cx="1050" cy="120" r="1" class="particle d2" opacity="0.2" style="animation-delay:3.5s;"/>
+      <circle cx="430" cy="90" r="1.1" class="particle d3" opacity="0.25" style="animation-delay:6.5s;"/>
+      <circle cx="1120" cy="450" r="1" class="particle d4" opacity="0.2" style="animation-delay:1.5s;"/>
+      <circle cx="330" cy="250" r="1" class="particle d1" opacity="0.18" style="animation-delay:4.5s;"/>
+      <circle cx="850" cy="60" r="1" class="particle d2" opacity="0.2" fill="#A78BFA" style="animation-delay:0.5s;"/>
+    </g>
+
+    <!-- outer frame -->
+    <rect x="6" y="6" width="1488" height="488" rx="10" fill="none" stroke="#171D2C" stroke-width="2"/>
   </g>
-</g>
-
-<!-- floating particles (scattered across the wide canvas) -->
-<g fill="url(#dotGlow)">
-  <circle class="particle" cx="120" cy="150" r="2.6" opacity="0.55" style="animation-delay:.2s"/>
-  <circle class="particle" cx="330" cy="90" r="2.2" opacity="0.4" style="animation-delay:2s"/>
-  <circle class="particle" cx="300" cy="440" r="2.8" opacity="0.6" style="animation-delay:.9s"/>
-  <circle class="particle" cx="470" cy="60" r="2.4" opacity="0.5" style="animation-delay:1.6s"/>
-  <circle class="particle" cx="560" cy="420" r="2.2" opacity="0.4" style="animation-delay:.7s"/>
-  <circle class="particle" cx="900" cy="70" r="2.6" opacity="0.55" style="animation-delay:1.9s"/>
-  <circle class="particle" cx="980" cy="440" r="2" opacity="0.45" style="animation-delay:1.2s"/>
-  <circle class="particle" cx="1080" cy="200" r="2.8" opacity="0.6" style="animation-delay:2.5s"/>
-  <circle class="particle" cx="1150" cy="440" r="2.2" opacity="0.4" style="animation-delay:1.8s"/>
-  <circle class="particle" cx="1330" cy="440" r="2.5" opacity="0.55" style="animation-delay:1.7s"/>
-  <circle class="particle" cx="1600" cy="180" r="2.4" opacity="0.5" style="animation-delay:.5s"/>
-  <circle class="particle" cx="60" cy="380" r="3" opacity="0.7" style="animation-delay:.8s"/>
-  <circle class="particle" cx="700" cy="440" r="2" opacity="0.45" style="animation-delay:2.4s"/>
-</g>
-
 </svg>
