@@ -8,10 +8,6 @@
 
 
 
-
-
-
-
 <p align="center">
   <img src="./banner.svg" width="100%" alt="Vigneshwaran S Banner">
 </p>
@@ -59,6 +55,7 @@ class Vigneshwaran S:
         "Backend Engineering",
         "AI & API Integration"
     ]
+
     goal = "Build reliable software that solves real-world problems."
 ```
 
