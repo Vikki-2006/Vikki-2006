@@ -166,17 +166,17 @@ src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Vik
 
 <td width="50%" align="center" valign="top">
 
-<h3>🤖 AI Developer Assistant CLI</h3>
+<h3>🚗 Smart Parking System</h3>
 
-AI-powered terminal assistant with Markdown rendering, Gemini AI integration, and developer productivity tools.
+Intelligent parking management system with automatic slot allocation, QR-based vehicle verification, real-time parking monitoring, and admin dashboard.
 
 <br>
 
-`Python` `Gemini API` `Rich` `CLI`
+`Python` `Flask` `PostgreSQL` `JavaScript` `QR Code`
 
 <br><br>
 
-<a href="https://github.com/Vikki-2006/ai-developer-assistant">
+<a href="https://github.com/Vikki-2006/smart-parking-system">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -184,17 +184,23 @@ AI-powered terminal assistant with Markdown rendering, Gemini AI integration, an
 
 <td width="50%" align="center" valign="top">
 
-<h3>📄 DocCraft</h3>
+<h3>🎬 Compressly</h3>
 
-Offline PDF toolkit for merging, splitting, converting, rotating, watermarking, and managing PDF documents.
+Modern privacy-first video compression platform with local processing, FFmpeg integration, real-time progress tracking, analytics, and zero cloud uploads.
 
 <br>
 
-`Python` `CustomTkinter` `PyMuPDF` `HTML`
+`React` `JavaScript` `FastAPI` `FFmpeg` `Docker`
 
 <br><br>
 
-<a href="https://github.com/Vikki-2006/Doc-craft">
+<a href="https://compressly-ecru.vercel.app/">
+<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+&nbsp;
+
+<a href="https://github.com/Vikki-2006/Compressly">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -211,39 +217,54 @@ Offline PDF toolkit for merging, splitting, converting, rotating, watermarking, 
 
 <td width="50%" align="center" valign="top">
 
-<h3>🌐 Portfolio Website</h3>
+<h3>🎯 ATScope</h3>
 
-Modern developer portfolio with responsive design, smooth animations, and interactive user experience.
+Production-grade AI Resume Analyzer and ATS Optimization platform with resume scoring, job matching, skill-gap analysis, and detailed reports.
 
 <br>
 
-`React` `TypeScript` `Tailwind CSS` `Framer Motion` `Vite`
+`Python` `FastAPI` `SQLAlchemy` `Jinja2` `Alpine.js`
 
 <br><br>
 
-<a href="https://vigneshwaran-dev.vercel.app/">
+<a href="https://at-scope-ten.vercel.app/">
 <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+&nbsp;
+
+<a href="https://github.com/Vikki-2006/ATScope">
+<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 
 <td width="50%" align="center" valign="top">
 
-<h3>♻️ Smart Waste Collection System</h3>
+<h3>🛡️ ShieldBlock Pro</h3>
 
-AI-powered IoT platform for real-time waste monitoring, route optimization, and smart waste collection.
+Privacy-focused Manifest V3 browser extension that blocks ads, trackers, popups, cookie banners, and tracking URLs with real-time protection statistics.
 
 <br>
 
-`Python` `Flask` `Firebase` `ESP8266` `Google Maps API`
+`JavaScript` `Manifest V3` `Chrome API` `DeclarativeNetRequest` `CSS`
 
 <br><br>
 
-<a href="https://github.com/Vikki-2006/smart-waste-system">
+<a href="https://github.com/Vikki-2006/ShieldBlock-Pro">
 <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
+&nbsp;
+
+<a href="https://github.com/Vikki-2006/ShieldBlock-Pro#installation">
+<img src="https://img.shields.io/badge/Installation-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
 </td>
+
+</tr>
+</table>
 
 </tr>
 </table>
