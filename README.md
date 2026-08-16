@@ -59,14 +59,6 @@ class Vigneshwaran S:
         "Backend Engineering",
         "AI & API Integration"
     ]
-
-    interests = [
-        "Full Stack Development",
-        "Backend Development",
-        "AI-Powered Applications",
-        "Scalable Systems"
-    ]
-
     goal = "Build reliable software that solves real-world problems."
 ```
 
