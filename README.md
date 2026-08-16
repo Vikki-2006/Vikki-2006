@@ -217,7 +217,7 @@ Production-grade AI Resume Analyzer and ATS Optimization platform with resume sc
 
 <br>
 
-<a href="https://at-scope-ten.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>&nbsp;<a href="https://github.com/Vikki-2006/ATScope"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://atscope-analyzer.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>&nbsp;<a href="https://github.com/Vikki-2006/ATScope"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 
