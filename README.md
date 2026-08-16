@@ -1,7 +1,13 @@
 
 
 
-
+<p align="center">
+  <img
+    src="./banner-new.svg"
+    width="100%"
+    alt="Vigneshwaran S GitHub Banner"
+  />
+</p>
 
 
 
