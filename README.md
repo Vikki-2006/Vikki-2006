@@ -174,17 +174,9 @@ Intelligent parking management system with automatic slot allocation, QR-based v
 
 `Python` `Flask` `PostgreSQL` `JavaScript` `QR Code`
 
-<br><br>
+<br>
 
-<a href="https://smartpark-control.vercel.app/admin">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-&nbsp;
-
-<a href="https://github.com/Vikki-2006/smart-parking-system">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<a href="https://smartpark-control.vercel.app/admin"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>&nbsp;<a href="https://github.com/Vikki-2006/smart-parking-system"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 
@@ -198,17 +190,9 @@ Modern privacy-first video compression platform with local processing, FFmpeg in
 
 `React` `JavaScript` `FastAPI` `FFmpeg` `Docker`
 
-<br><br>
+<br>
 
-<a href="https://compressly-ecru.vercel.app/">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-&nbsp;
-
-<a href="https://github.com/Vikki-2006/Compressly">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<a href="https://compressly-ecru.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>&nbsp;<a href="https://github.com/Vikki-2006/Compressly"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 
@@ -231,17 +215,9 @@ Production-grade AI Resume Analyzer and ATS Optimization platform with resume sc
 
 `Python` `FastAPI` `SQLAlchemy` `Jinja2` `Alpine.js`
 
-<br><br>
+<br>
 
-<a href="https://at-scope-ten.vercel.app/">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-&nbsp;
-
-<a href="https://github.com/Vikki-2006/ATScope">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<a href="https://at-scope-ten.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>&nbsp;<a href="https://github.com/Vikki-2006/ATScope"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 
@@ -255,19 +231,14 @@ Privacy-focused Manifest V3 browser extension that blocks ads, trackers, popups,
 
 `JavaScript` `Manifest V3` `Chrome API` `DeclarativeNetRequest` `CSS`
 
-<br><br>
+<br>
 
-<a href="https://github.com/Vikki-2006/ShieldBlock-Pro">
-<img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-&nbsp;
-
-<a href="https://github.com/Vikki-2006/ShieldBlock-Pro#installation">
-<img src="https://img.shields.io/badge/Installation-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
+<a href="https://github.com/Vikki-2006/ShieldBlock-Pro"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;<a href="https://github.com/Vikki-2006/ShieldBlock-Pro#installation"><img src="https://img.shields.io/badge/Installation-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 
 </td>
+
+</tr>
+</table>
 
 </tr>
 </table>
