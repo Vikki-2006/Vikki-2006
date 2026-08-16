@@ -1,0 +1,436 @@
+<svg width="1500" height="300" viewBox="0 0 1500 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer — Thanks for visiting, github.com/Vikki-2006">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070D"/>
+      <stop offset="55%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0B1018"/>
+    </linearGradient>
+
+    <radialGradient id="textGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#3B82F6" stop-opacity="0.035"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="ambientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="headingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8EEFF"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#3B82F6" stop-opacity="0.65"/>
+      <stop offset="85%" stop-color="#22D3EE" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="scanLineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#60A5FA" stop-opacity="0.4"/>
+      <stop offset="55%" stop-color="#22D3EE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="dotGridFooter" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1C2333" fill-opacity="0.55"/>
+    </pattern>
+
+    <clipPath id="footerFrame">
+      <rect x="0" y="0" width="1500" height="300" rx="14"/>
+    </clipPath>
+
+    <clipPath id="waveClip">
+      <rect x="0" y="0" width="1500" height="300"/>
+    </clipPath>
+
+    <style>
+      <![CDATA[
+        :root {
+          --font-sans: "Inter Tight", "Space Grotesk", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+          --font-name: "Sora", "Plus Jakarta Sans", "Manrope", Inter, Arial, sans-serif;
+        }
+
+        /* ---------- background grid ---------- */
+        .grid-pulse { animation: gridDrift 40s ease-in-out infinite; }
+        @keyframes gridDrift {
+          0%, 100% { opacity:0.34; }
+          50% { opacity:0.5; }
+        }
+
+        /* ---------- ambient breathing glows ---------- */
+        .glow-breathe { animation: glowBreathe 7.5s ease-in-out infinite; }
+        @keyframes glowBreathe { 0%,100% { opacity:0.7; } 50% { opacity:1; } }
+
+        .ambient-breathe { animation: ambientBreathe 11s ease-in-out infinite; }
+        @keyframes ambientBreathe { 0%,100% { opacity:0.55; transform:scale(1); } 50% { opacity:1; transform:scale(1.05); } }
+
+        /* ---------- status / marker pulses ---------- */
+        .status-pulse { animation: statusPulse 4s ease-in-out infinite; transform-origin: center; }
+        @keyframes statusPulse { 0%,100% { opacity:0.6; transform:scale(0.9);} 50% { opacity:1; transform:scale(1.25);} }
+
+        .marker-blink { animation: markerBlink 3.4s ease-in-out infinite; transform-origin: center; }
+        .marker-blink.m2 { animation-delay: 1.4s; }
+        .marker-blink.m3 { animation-delay: 2.2s; }
+        @keyframes markerBlink { 0%,100% { opacity:0.45; } 50% { opacity:0.9; } }
+
+        .corner-pulse { animation: cornerPulse 8s ease-in-out infinite; }
+        .corner-pulse.c2 { animation-delay: 2s; }
+        .corner-pulse.c3 { animation-delay: 4s; }
+        .corner-pulse.c4 { animation-delay: 6s; }
+        @keyframes cornerPulse { 0%,100% { opacity:0.45; } 50% { opacity:0.9; } }
+
+        .diamond-pulse { animation: diaPulse 7s ease-in-out infinite; }
+        @keyframes diaPulse { 0%,100% { opacity:0.3; } 50% { opacity:0.65; } }
+
+        .info-blink { animation: infoBlink 6s ease-in-out infinite; }
+        .info-blink.ib2 { animation-delay: 1.5s; }
+        .info-blink.ib3 { animation-delay: 3s; }
+        .info-blink.ib4 { animation-delay: 4.5s; }
+        @keyframes infoBlink { 0%,100% { opacity:0.5; } 50% { opacity:0.9; } }
+
+        /* ---------- heading glow (stable, no movement) ---------- */
+        .heading-glow {
+          filter: drop-shadow(0 0 6px rgba(59,130,246,0.20)) brightness(1);
+          animation: headingPulse 10s ease-in-out infinite;
+        }
+        @keyframes headingPulse {
+          0%, 100% { filter: drop-shadow(0 0 6px rgba(59,130,246,0.20)) brightness(1); }
+          50% { filter: drop-shadow(0 0 9px rgba(59,130,246,0.32)) brightness(1.03); }
+        }
+
+        /* ---------- particles ---------- */
+        .particle { animation: drift 11s ease-in-out infinite; }
+        .particle.d1 { animation-duration: 8s; }
+        .particle.d2 { animation-duration: 11s; }
+        .particle.d3 { animation-duration: 14s; }
+        .particle.d4 { animation-duration: 17s; }
+        .particle.d5 { animation-duration: 20s; }
+        .particle.d6 { animation-duration: 23s; }
+        @keyframes drift { 0%,100% { transform: translate(0,0); opacity:0.15; } 50% { transform: translate(6px,-7px); opacity:0.45; } }
+
+        .particle-h { animation: driftH 26s ease-in-out infinite; }
+        .particle-h.h2 { animation-duration: 32s; animation-delay: 4s; }
+        .particle-h.h3 { animation-duration: 38s; animation-delay: 9s; }
+        @keyframes driftH { 0%,100% { transform: translateX(0px); opacity:0.12; } 50% { transform: translateX(18px); opacity:0.4; } }
+
+        .particle-p { animation: pulseOnly 5s ease-in-out infinite; }
+        .particle-p.p2 { animation-duration: 6.5s; animation-delay: 1s; }
+        .particle-p.p3 { animation-duration: 4s; animation-delay: 2s; }
+        .particle-p.p4 { animation-duration: 7s; animation-delay: 0.5s; }
+        @keyframes pulseOnly { 0%,100% { opacity:0.14; } 50% { opacity:0.5; } }
+
+        /* ---------- cursor dot on guide line ---------- */
+        .cursor-dot { animation: cursorSlide 9s ease-in-out infinite; }
+        @keyframes cursorSlide {
+          0%, 100% { transform: translateX(0px); }
+          50% { transform: translateX(14px); }
+        }
+
+        /* ---------- waveform scroll ---------- */
+        .wave-scroll-1 { animation: waveScroll1 34s linear infinite; }
+        @keyframes waveScroll1 { from { transform: translateX(0px); } to { transform: translateX(-1500px); } }
+
+        .wave-scroll-2 { animation: waveScroll2 46s linear infinite reverse; }
+        @keyframes waveScroll2 { from { transform: translateX(0px); } to { transform: translateX(-1500px); } }
+
+        /* ---------- signal dot riding the waveform ---------- */
+        .signal-travel-x { animation: signalX 24s linear infinite; }
+        @keyframes signalX { from { transform: translateX(-12px); } to { transform: translateX(1512px); } }
+
+        .signal-travel-y { animation: signalY 2.6s ease-in-out infinite; }
+        @keyframes signalY {
+          0%   { transform: translate(0px,258px); }
+          25%  { transform: translate(0px,251px); }
+          50%  { transform: translate(0px,258px); }
+          75%  { transform: translate(0px,265px); }
+          100% { transform: translate(0px,258px); }
+        }
+
+        /* ---------- rotating HUD rings ---------- */
+        .ring-slow-rotate { animation: ringSlowRotate 42s linear infinite; }
+        @keyframes ringSlowRotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+        .ring-slow-rotate-rev { animation: ringSlowRotateRev 58s linear infinite; }
+        @keyframes ringSlowRotateRev { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+
+        .ring-slow-rotate-3 { animation: ringSlowRotate3 50s linear infinite; }
+        @keyframes ringSlowRotate3 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+        /* ---------- telemetry / data-stream lines ---------- */
+        .telemetry-line { animation: telemetryFade 9s ease-in-out infinite; }
+        .telemetry-line.t2 { animation-delay: 3s; }
+        .telemetry-line.t3 { animation-delay: 5.5s; }
+        @keyframes telemetryFade { 0%,100% { opacity:0.12; } 50% { opacity:0.4; } }
+
+        .data-stream { animation: dataStreamPulse 6s ease-in-out infinite; transform-origin: left center; }
+        .data-stream.ds2 { animation-duration: 7.5s; animation-delay: 1.2s; }
+        .data-stream.ds3 { animation-duration: 5.2s; animation-delay: 2.4s; }
+        .data-stream.ds4 { animation-duration: 8.4s; animation-delay: 0.6s; }
+        .data-stream.ds5 { animation-duration: 6.8s; animation-delay: 3.1s; }
+        .data-stream.ds6 { animation-duration: 9.2s; animation-delay: 1.8s; }
+        @keyframes dataStreamPulse { 0%,100% { width:6px; opacity:0.12; } 50% { width:30px; opacity:0.4; } }
+
+        .code-fade { animation: codeFade 8s ease-in-out infinite; }
+        .code-fade.cf2 { animation-duration: 10s; animation-delay: 2s; }
+        .code-fade.cf3 { animation-duration: 7s; animation-delay: 4s; }
+        .code-fade.cf4 { animation-duration: 11s; animation-delay: 1s; }
+        @keyframes codeFade { 0%,100% { opacity:0; } 45% { opacity:0; } 55% { opacity:0.5; } 90% { opacity:0.5; } 100% { opacity:0; } }
+
+        /* ---------- HUD dots ---------- */
+        .hud-dot { animation: hudBlink 3s ease-in-out infinite; }
+        .hud-dot.h2 { animation-delay: 0.8s; }
+        .hud-dot.h3 { animation-delay: 1.6s; }
+        .hud-dot.h4 { animation-delay: 2.4s; }
+        @keyframes hudBlink { 0%,100% { opacity:0.18; } 50% { opacity:0.75; } }
+
+        /* ---------- scan line ---------- */
+        .scan-move { animation: scanMove 30s linear infinite; }
+        @keyframes scanMove {
+          0%   { transform: translateX(-30px); opacity:0; }
+          8%   { opacity:0.35; }
+          50%  { opacity:0.35; }
+          92%  { opacity:0; }
+          100% { transform: translateX(1530px); opacity:0; }
+        }
+
+        /* ---------- twinkling stars ---------- */
+        .star-twinkle { animation: twinkle 5s ease-in-out infinite; }
+        .star-twinkle.s2 { animation-duration: 6.5s; animation-delay: 1s; }
+        .star-twinkle.s3 { animation-duration: 4s; animation-delay: 2s; }
+        .star-twinkle.s4 { animation-duration: 7s; animation-delay: 0.5s; }
+        @keyframes twinkle { 0%,100% { opacity:0.15; } 50% { opacity:0.55; } }
+
+        /* ---------- center system-status row ---------- */
+        .system-dot { animation: systemDot 2.6s ease-in-out infinite; transform-origin: center; }
+        @keyframes systemDot { 0%,100% { opacity:0.55; transform:scale(0.85);} 50% { opacity:1; transform:scale(1.2);} }
+
+        .progress-sweep { animation: progressSweep 5.5s ease-in-out infinite; transform-origin: left center; }
+        @keyframes progressSweep { 0%,100% { transform: scaleX(0.35); opacity:0.35; } 50% { transform: scaleX(1); opacity:0.7; } }
+
+        /* ---------- final terminal blink ---------- */
+        .eof-cursor { animation: eofBlink 1.1s step-end infinite; }
+        @keyframes eofBlink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+
+        .shutdown-fade { animation: shutdownFade 12s ease-in-out infinite; }
+        @keyframes shutdownFade { 0%,100% { opacity:0.12; } 50% { opacity:0.34; } }
+      ]]>
+    </style>
+  </defs>
+
+  <g clip-path="url(#footerFrame)">
+    <rect x="0" y="0" width="1500" height="300" fill="url(#footerBg)"/>
+    <rect x="0" y="0" width="1500" height="300" fill="url(#dotGridFooter)" class="grid-pulse"/>
+
+    <!-- ambient blue breathing light behind the whole center -->
+    <ellipse cx="750" cy="150" rx="380" ry="150" fill="url(#ambientGlow)" class="ambient-breathe"/>
+
+    <!-- thin scan line, drifting very slowly left to right and fading at each end -->
+    <g class="scan-move">
+      <rect x="0" y="0" width="1.4" height="300" fill="url(#scanLineGrad)"/>
+    </g>
+
+    <!-- ============ HUD FRAME ============ -->
+    <!-- layered inner technical borders -->
+    <rect x="10" y="10" width="1480" height="280" rx="11" fill="none" stroke="#141A28" stroke-width="1" opacity="0.55"/>
+    <rect x="16" y="16" width="1468" height="268" rx="9" fill="none" stroke="#0F1420" stroke-width="1" opacity="0.35"/>
+
+    <!-- corner reticles, all four corners, softly pulsing -->
+    <g stroke="#3B4560" stroke-width="1.4" class="corner-pulse c1" opacity="0.75">
+      <line x1="34" y1="34" x2="34" y2="58"/>
+      <line x1="34" y1="34" x2="58" y2="34"/>
+    </g>
+    <g stroke="#3B4560" stroke-width="1.4" class="corner-pulse c2" opacity="0.75">
+      <line x1="1466" y1="34" x2="1466" y2="58"/>
+      <line x1="1466" y1="34" x2="1442" y2="34"/>
+    </g>
+    <g stroke="#3B4560" stroke-width="1.4" class="corner-pulse c3" opacity="0.75">
+      <line x1="34" y1="266" x2="34" y2="242"/>
+      <line x1="34" y1="266" x2="58" y2="266"/>
+    </g>
+    <g stroke="#3B4560" stroke-width="1.4" class="corner-pulse c4" opacity="0.75">
+      <line x1="1466" y1="266" x2="1466" y2="242"/>
+      <line x1="1466" y1="266" x2="1442" y2="266"/>
+    </g>
+
+    <!-- top-right diagonal hatch accent -->
+    <g stroke="#26304A" stroke-width="2" opacity="0.7" class="corner-pulse c2">
+      <line x1="1430" y1="30" x2="1442" y2="42"/>
+      <line x1="1440" y1="28" x2="1458" y2="46"/>
+      <line x1="1450" y1="26" x2="1468" y2="44"/>
+    </g>
+
+    <!-- session status indicator (top-right) -->
+    <g font-family="var(--font-mono)" font-size="9.5" letter-spacing="1.2">
+      <circle cx="1382" cy="47" r="2.4" fill="#22D3EE" class="status-pulse"/>
+      <text x="1393" y="51" fill="#7C89A3">SESSION: ACTIVE</text>
+    </g>
+
+    <!-- top guide line with sliding position dot -->
+    <line x1="70" y1="66" x2="1430" y2="66" stroke="#26304A" stroke-width="1" stroke-dasharray="1 7" class="diamond-pulse"/>
+    <g transform="translate(735,66)" class="cursor-dot">
+      <circle r="2.6" fill="#3B82F6"/>
+    </g>
+
+    <!-- corner coordinate / revision / system telemetry -->
+    <text x="34" y="80" font-family="var(--font-mono)" font-size="9.5" fill="#5C6884" letter-spacing="0.6" class="info-blink">X:0040 Y:0020</text>
+    <text x="1466" y="80" text-anchor="end" font-family="var(--font-mono)" font-size="9.5" fill="#5C6884" letter-spacing="0.6" class="info-blink ib2">REV 2026.08</text>
+    <text x="750" y="22" text-anchor="middle" font-family="var(--font-mono)" font-size="8.5" fill="#4A5470" letter-spacing="2" class="info-blink ib3">SYSTEM: ONLINE</text>
+
+    <!-- ============ CIRCULAR HUD ELEMENTS ============ -->
+    <g transform="translate(120,150)">
+      <g class="ring-slow-rotate">
+        <circle r="12" fill="none" stroke="#26304A" stroke-width="1" stroke-dasharray="1 4"/>
+      </g>
+      <circle r="2.2" fill="#3B82F6" class="marker-blink"/>
+    </g>
+    <g transform="translate(1380,150)">
+      <g class="ring-slow-rotate-rev">
+        <circle r="12" fill="none" stroke="#26304A" stroke-width="1" stroke-dasharray="1 4"/>
+      </g>
+      <circle r="2.2" fill="#22D3EE" class="marker-blink m2"/>
+    </g>
+    <g transform="translate(750,46)">
+      <g class="ring-slow-rotate-3">
+        <circle r="9" fill="none" stroke="#232C46" stroke-width="1" stroke-dasharray="1 3.5"/>
+        <circle cx="9" cy="0" r="1.4" fill="#4C8CFF"/>
+      </g>
+      <circle r="1.6" fill="#3B82F6" class="marker-blink m3"/>
+    </g>
+
+    <!-- small bracket ticks flanking the heading -->
+    <g stroke="#2A3550" stroke-width="1" opacity="0.6">
+      <path d="M560,118 L560,108 L575,108" fill="none"/>
+      <path d="M940,118 L940,108 L925,108" fill="none"/>
+    </g>
+
+    <!-- soft glow behind heading, breathing very subtly -->
+    <ellipse cx="750" cy="150" rx="230" ry="70" fill="url(#textGlow)" class="glow-breathe"/>
+
+    <!-- ============ DATA STREAMS ============ -->
+    <g stroke="#2E3852" stroke-width="1">
+      <line x1="56" y1="188" x2="116" y2="188" class="telemetry-line"/>
+      <line x1="1384" y1="188" x2="1444" y2="188" class="telemetry-line t2"/>
+      <line x1="64" y1="200" x2="104" y2="200" class="telemetry-line t3"/>
+      <line x1="1396" y1="200" x2="1436" y2="200" class="telemetry-line t2"/>
+    </g>
+    <g fill="#3B82F6">
+      <rect x="40" y="108" height="1.2" class="data-stream ds1" opacity="0.2"/>
+      <rect x="40" y="132" height="1.2" class="data-stream ds2" opacity="0.2" fill="#22D3EE"/>
+      <rect x="40" y="170" height="1.2" class="data-stream ds3" opacity="0.2"/>
+      <rect x="1428" y="108" height="1.2" class="data-stream ds4" opacity="0.2" fill="#22D3EE"/>
+      <rect x="1428" y="132" height="1.2" class="data-stream ds5" opacity="0.2"/>
+      <rect x="1428" y="170" height="1.2" class="data-stream ds6" opacity="0.2" fill="#22D3EE"/>
+    </g>
+    <g font-family="var(--font-mono)" font-size="8" fill="#3E4A68">
+      <text x="40" y="120" class="code-fade">0x1F</text>
+      <text x="1444" y="120" text-anchor="end" class="code-fade cf2">10110</text>
+      <text x="40" y="182" class="code-fade cf3">&gt;_</text>
+      <text x="1444" y="182" text-anchor="end" class="code-fade cf4">0xA4</text>
+    </g>
+
+    <!-- staggered HUD dots -->
+    <g>
+      <circle cx="210" cy="52" r="1.4" fill="#3B82F6" class="hud-dot"/>
+      <circle cx="1290" cy="52" r="1.4" fill="#22D3EE" class="hud-dot h2"/>
+      <circle cx="480" cy="240" r="1.2" fill="#3B82F6" class="hud-dot h3"/>
+      <circle cx="1020" cy="240" r="1.2" fill="#22D3EE" class="hud-dot h4"/>
+    </g>
+
+    <!-- center content -->
+    <g text-anchor="middle" font-family="var(--font-sans)">
+      <text x="750" y="163" font-family="var(--font-name)" font-size="42" font-weight="800" fill="url(#headingGrad)" letter-spacing="-0.5" class="heading-glow">Thanks for Visiting!</text>
+
+      <text x="750" y="200" font-family="var(--font-mono)" font-size="16" letter-spacing="0.4">
+        <tspan fill="#7C89A3">github.com/</tspan><tspan fill="#4C8CFF">Vikki-2006</tspan>
+      </text>
+
+      <text x="750" y="228" font-family="var(--font-mono)" font-size="9.5" fill="#4A5470" letter-spacing="3" class="info-blink">SEC — FOOTER / EOF<tspan class="eof-cursor" fill="#7C89A3">_</tspan></text>
+    </g>
+
+    <!-- ============ CENTER STATUS ============ -->
+    <g transform="translate(750,244)" text-anchor="middle">
+      <circle cx="-58" cy="-3" r="2" fill="#3B82F6" class="system-dot"/>
+      <text x="-50" y="0" text-anchor="start" font-family="var(--font-mono)" font-size="8.5" fill="#5C6884" letter-spacing="1.4">SYSTEM ONLINE</text>
+    </g>
+    <g transform="translate(680,251)">
+      <rect x="0" y="0" width="140" height="1.2" fill="#1C2333" opacity="0.5"/>
+      <rect x="0" y="0" width="140" height="1.2" fill="url(#progressGrad)" class="progress-sweep"/>
+    </g>
+
+    <!-- micro terminal status text -->
+    <g font-family="var(--font-mono)" font-size="9" fill="#4A5470" letter-spacing="0.8">
+      <text x="34" y="238" class="info-blink ib2">NODE: DEV-01</text>
+      <text x="34" y="248" class="info-blink">STATUS: ONLINE</text>
+      <text x="1466" y="238" text-anchor="end" class="info-blink ib3">LATENCY: 24ms</text>
+      <text x="1466" y="248" text-anchor="end" class="info-blink ib4">BUILD: STABLE</text>
+    </g>
+
+    <!-- floating particles (drifting + pulsing, staggered durations) -->
+    <g fill="#4C8CFF">
+      <circle cx="180" cy="90" r="1.3" class="particle d1" opacity="0.3"/>
+      <circle cx="360" cy="210" r="1.1" class="particle d2" opacity="0.25"/>
+      <circle cx="260" cy="130" r="1" class="particle d3" opacity="0.22" fill="#A78BFA"/>
+      <circle cx="1120" cy="95" r="1.2" class="particle d4" opacity="0.28"/>
+      <circle cx="1250" cy="205" r="1.1" class="particle d1" opacity="0.25" style="animation-delay:2s;"/>
+      <circle cx="1050" cy="200" r="1" class="particle d2" opacity="0.2" fill="#A78BFA" style="animation-delay:3.5s;"/>
+      <circle cx="440" cy="70" r="1" class="particle d3" opacity="0.2" style="animation-delay:1.5s;"/>
+      <circle cx="1000" cy="80" r="1" class="particle d4" opacity="0.2" style="animation-delay:4s;"/>
+      <circle cx="320" cy="175" r="0.9" class="particle d5" opacity="0.2" fill="#22D3EE"/>
+      <circle cx="1160" cy="165" r="0.9" class="particle d6" opacity="0.2" fill="#22D3EE" style="animation-delay:2.6s;"/>
+      <circle cx="560" cy="235" r="0.8" class="particle d5" opacity="0.18" style="animation-delay:5s;"/>
+      <circle cx="960" cy="55" r="0.9" class="particle d6" opacity="0.2" style="animation-delay:1.2s;"/>
+      <circle cx="150" cy="60" r="0.9" class="particle-h" opacity="0.16" fill="#22D3EE"/>
+      <circle cx="1350" cy="70" r="0.9" class="particle-h h2" opacity="0.16"/>
+      <circle cx="230" cy="220" r="0.8" class="particle-h h3" opacity="0.14" fill="#22D3EE"/>
+      <circle cx="600" cy="60" r="0.9" class="star-twinkle"/>
+      <circle cx="900" cy="215" r="0.9" class="star-twinkle s2" fill="#22D3EE"/>
+      <circle cx="150" cy="230" r="0.8" class="star-twinkle s3"/>
+      <circle cx="1330" cy="100" r="0.8" class="star-twinkle s4" fill="#22D3EE"/>
+      <circle cx="700" cy="95" r="0.7" class="particle-p" opacity="0.15"/>
+      <circle cx="810" cy="215" r="0.7" class="particle-p p2" opacity="0.15" fill="#22D3EE"/>
+      <circle cx="500" cy="115" r="0.7" class="particle-p p3" opacity="0.13"/>
+      <circle cx="1010" cy="135" r="0.7" class="particle-p p4" opacity="0.13" fill="#22D3EE"/>
+    </g>
+
+    <!-- ============ WAVEFORM ============ -->
+    <g clip-path="url(#waveClip)">
+      <g transform="translate(0,266)">
+        <g class="wave-scroll-2">
+          <path d="M 0,0.0 L 12,1.93 L 24,3.62 L 36,4.84 L 48,5.45 L 60,5.36 L 72,4.59 L 84,3.23 L 96,1.46 L 108,-0.49 L 120,-2.39 L 132,-3.98 L 144,-5.06 L 156,-5.49 L 168,-5.23 L 180,-4.3 L 192,-2.82 L 204,-0.98 L 216,0.98 L 228,2.82 L 240,4.3 L 252,5.23 L 264,5.49 L 276,5.06 L 288,3.98 L 300,2.39 L 312,0.49 L 324,-1.46 L 336,-3.23 L 348,-4.59 L 360,-5.36 L 372,-5.45 L 384,-4.84 L 396,-3.62 L 408,-1.93 L 420,-0.0 L 432,1.93 L 444,3.62 L 456,4.84 L 468,5.45 L 480,5.36 L 492,4.59 L 504,3.23 L 516,1.46 L 528,-0.49 L 540,-2.39 L 552,-3.98 L 564,-5.06 L 576,-5.49 L 588,-5.23 L 600,-4.3 L 612,-2.82 L 624,-0.98 L 636,0.98 L 648,2.82 L 660,4.3 L 672,5.23 L 684,5.49 L 696,5.06 L 708,3.98 L 720,2.39 L 732,0.49 L 744,-1.46 L 756,-3.23 L 768,-4.59 L 780,-5.36 L 792,-5.45 L 804,-4.84 L 816,-3.62 L 828,-1.93 L 840,-0.0 L 852,1.93 L 864,3.62 L 876,4.84 L 888,5.45 L 900,5.36 L 912,4.59 L 924,3.23 L 936,1.46 L 948,-0.49 L 960,-2.39 L 972,-3.98 L 984,-5.06 L 996,-5.49 L 1008,-5.23 L 1020,-4.3 L 1032,-2.82 L 1044,-0.98 L 1056,0.98 L 1068,2.82 L 1080,4.3 L 1092,5.23 L 1104,5.49 L 1116,5.06 L 1128,3.98 L 1140,2.39 L 1152,0.49 L 1164,-1.46 L 1176,-3.23 L 1188,-4.59 L 1200,-5.36 L 1212,-5.45 L 1224,-4.84 L 1236,-3.62 L 1248,-1.93 L 1260,-0.0 L 1272,1.93 L 1284,3.62 L 1296,4.84 L 1308,5.45 L 1320,5.36 L 1332,4.59 L 1344,3.23 L 1356,1.46 L 1368,-0.49 L 1380,-2.39 L 1392,-3.98 L 1404,-5.06 L 1416,-5.49 L 1428,-5.23 L 1440,-4.3 L 1452,-2.82 L 1464,-0.98 L 1476,0.98 L 1488,2.82 L 1500,4.3 L 1512,5.23 L 1524,5.49 L 1536,5.06 L 1548,3.98 L 1560,2.39 L 1572,0.49 L 1584,-1.46 L 1596,-3.23 L 1608,-4.59 L 1620,-5.36 L 1632,-5.45 L 1644,-4.84 L 1656,-3.62 L 1668,-1.93 L 1680,-0.0 L 1692,1.93 L 1704,3.62 L 1716,4.84 L 1728,5.45 L 1740,5.36 L 1752,4.59 L 1764,3.23 L 1776,1.46 L 1788,-0.49 L 1800,-2.39 L 1812,-3.98 L 1824,-5.06 L 1836,-5.49 L 1848,-5.23 L 1860,-4.3 L 1872,-2.82 L 1884,-0.98 L 1896,0.98 L 1908,2.82 L 1920,4.3 L 1932,5.23 L 1944,5.49 L 1956,5.06 L 1968,3.98 L 1980,2.39 L 1992,0.49 L 2004,-1.46 L 2016,-3.23 L 2028,-4.59 L 2040,-5.36 L 2052,-5.45 L 2064,-4.84 L 2076,-3.62 L 2088,-1.93 L 2100,-0.0 L 2112,1.93 L 2124,3.62 L 2136,4.84 L 2148,5.45 L 2160,5.36 L 2172,4.59 L 2184,3.23 L 2196,1.46 L 2208,-0.49 L 2220,-2.39 L 2232,-3.98 L 2244,-5.06 L 2256,-5.49 L 2268,-5.23 L 2280,-4.3 L 2292,-2.82 L 2304,-0.98 L 2316,0.98 L 2328,2.82 L 2340,4.3 L 2352,5.23 L 2364,5.49 L 2376,5.06 L 2388,3.98 L 2400,2.39 L 2412,0.49 L 2424,-1.46 L 2436,-3.23 L 2448,-4.59 L 2460,-5.36 L 2472,-5.45 L 2484,-4.84 L 2496,-3.62 L 2508,-1.93 L 2520,-0.0 L 2532,1.93 L 2544,3.62 L 2556,4.84 L 2568,5.45 L 2580,5.36 L 2592,4.59 L 2604,3.23 L 2616,1.46 L 2628,-0.49 L 2640,-2.39 L 2652,-3.98 L 2664,-5.06 L 2676,-5.49 L 2688,-5.23 L 2700,-4.3 L 2712,-2.82 L 2724,-0.98 L 2736,0.98 L 2748,2.82 L 2760,4.3 L 2772,5.23 L 2784,5.49 L 2796,5.06 L 2808,3.98 L 2820,2.39 L 2832,0.49 L 2844,-1.46 L 2856,-3.23 L 2868,-4.59 L 2880,-5.36 L 2892,-5.45 L 2904,-4.84 L 2916,-3.62 L 2928,-1.93 L 2940,-0.0 L 2952,1.93 L 2964,3.62 L 2976,4.84 L 2988,5.45 L 3000,5.36" fill="none" stroke="#3B4A6B" stroke-width="1.2" opacity="0.55"/>
+        </g>
+      </g>
+      <g transform="translate(0,258)">
+        <g class="wave-scroll-1">
+          <path d="M 0,0.0 L 12,2.67 L 24,5.11 L 36,7.08 L 48,8.41 L 60,8.98 L 72,8.74 L 84,7.72 L 96,5.99 L 108,3.73 L 120,1.13 L 132,-1.58 L 144,-4.14 L 156,-6.32 L 168,-7.94 L 180,-8.84 L 192,-8.94 L 204,-8.24 L 216,-6.79 L 228,-4.73 L 240,-2.24 L 252,0.45 L 264,3.1 L 276,5.47 L 288,7.35 L 300,8.56 L 312,9.0 L 324,8.63 L 336,7.48 L 348,5.65 L 360,3.31 L 372,0.68 L 384,-2.02 L 396,-4.53 L 408,-6.64 L 420,-8.14 L 432,-8.91 L 444,-8.88 L 456,-8.04 L 468,-6.48 L 480,-4.34 L 492,-1.8 L 504,0.9 L 516,3.52 L 528,5.82 L 540,7.6 L 552,8.69 L 564,8.99 L 576,8.49 L 588,7.21 L 600,5.29 L 612,2.89 L 624,0.23 L 636,-2.46 L 648,-4.92 L 660,-6.93 L 672,-8.33 L 684,-8.97 L 696,-8.8 L 708,-7.83 L 720,-6.16 L 732,-3.93 L 744,-1.35 L 756,1.35 L 768,3.93 L 780,6.16 L 792,7.83 L 804,8.8 L 816,8.97 L 828,8.33 L 840,6.93 L 852,4.92 L 864,2.46 L 876,-0.23 L 888,-2.89 L 900,-5.29 L 912,-7.21 L 924,-8.49 L 936,-8.99 L 948,-8.69 L 960,-7.6 L 972,-5.82 L 984,-3.52 L 996,-0.9 L 1008,1.8 L 1020,4.34 L 1032,6.48 L 1044,8.04 L 1056,8.88 L 1068,8.91 L 1080,8.14 L 1092,6.64 L 1104,4.53 L 1116,2.02 L 1128,-0.68 L 1140,-3.31 L 1152,-5.65 L 1164,-7.48 L 1176,-8.63 L 1188,-9.0 L 1200,-8.56 L 1212,-7.35 L 1224,-5.47 L 1236,-3.1 L 1248,-0.45 L 1260,2.24 L 1272,4.73 L 1284,6.79 L 1296,8.24 L 1308,8.94 L 1320,8.84 L 1332,7.94 L 1344,6.32 L 1356,4.14 L 1368,1.58 L 1380,-1.13 L 1392,-3.73 L 1404,-5.99 L 1416,-7.72 L 1428,-8.74 L 1440,-8.98 L 1452,-8.41 L 1464,-7.08 L 1476,-5.11 L 1488,-2.67 L 1500,-0.0 L 1512,2.67 L 1524,5.11 L 1536,7.08 L 1548,8.41 L 1560,8.98 L 1572,8.74 L 1584,7.72 L 1596,5.99 L 1608,3.73 L 1620,1.13 L 1632,-1.58 L 1644,-4.14 L 1656,-6.32 L 1668,-7.94 L 1680,-8.84 L 1692,-8.94 L 1704,-8.24 L 1716,-6.79 L 1728,-4.73 L 1740,-2.24 L 1752,0.45 L 1764,3.1 L 1776,5.47 L 1788,7.35 L 1800,8.56 L 1812,9.0 L 1824,8.63 L 1836,7.48 L 1848,5.65 L 1860,3.31 L 1872,0.68 L 1884,-2.02 L 1896,-4.53 L 1908,-6.64 L 1920,-8.14 L 1932,-8.91 L 1944,-8.88 L 1956,-8.04 L 1968,-6.48 L 1980,-4.34 L 1992,-1.8 L 2004,0.9 L 2016,3.52 L 2028,5.82 L 2040,7.6 L 2052,8.69 L 2064,8.99 L 2076,8.49 L 2088,7.21 L 2100,5.29 L 2112,2.89 L 2124,0.23 L 2136,-2.46 L 2148,-4.92 L 2160,-6.93 L 2172,-8.33 L 2184,-8.97 L 2196,-8.8 L 2208,-7.83 L 2220,-6.16 L 2232,-3.93 L 2244,-1.35 L 2256,1.35 L 2268,3.93 L 2280,6.16 L 2292,7.83 L 2304,8.8 L 2316,8.97 L 2328,8.33 L 2340,6.93 L 2352,4.92 L 2364,2.46 L 2376,-0.23 L 2388,-2.89 L 2400,-5.29 L 2412,-7.21 L 2424,-8.49 L 2436,-8.99 L 2448,-8.69 L 2460,-7.6 L 2472,-5.82 L 2484,-3.52 L 2496,-0.9 L 2508,1.8 L 2520,4.34 L 2532,6.48 L 2544,8.04 L 2556,8.88 L 2568,8.91 L 2580,8.14 L 2592,6.64 L 2604,4.53 L 2616,2.02 L 2628,-0.68 L 2640,-3.31 L 2652,-5.65 L 2664,-7.48 L 2676,-8.63 L 2688,-9.0 L 2700,-8.56 L 2712,-7.35 L 2724,-5.47 L 2736,-3.1 L 2748,-0.45 L 2760,2.24 L 2772,4.73 L 2784,6.79 L 2796,8.24 L 2808,8.94 L 2820,8.84 L 2832,7.94 L 2844,6.32 L 2856,4.14 L 2868,1.58 L 2880,-1.13 L 2892,-3.73 L 2904,-5.99 L 2916,-7.72 L 2928,-8.74 L 2940,-8.98 L 2952,-8.41 L 2964,-7.08 L 2976,-5.11 L 2988,-2.67 L 3000,-0.0" fill="none" stroke="url(#waveGrad1)" stroke-width="1.6" opacity="0.8"/>
+        </g>
+      </g>
+
+      <!-- tiny signal dot travelling along the thicker waveform -->
+      <g class="signal-travel-x">
+        <g class="signal-travel-y">
+          <circle r="2.3" fill="#22D3EE" opacity="0.8"/>
+          <circle r="5" fill="none" stroke="#22D3EE" stroke-width="0.6" opacity="0.28"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- ============ FINAL TERMINAL EFFECT ============ -->
+    <text x="34" y="288" font-family="var(--font-mono)" font-size="7.5" fill="#3E4A68" letter-spacing="0.8" class="shutdown-fade">PROCESS: COMPLETE</text>
+    <text x="750" y="290" text-anchor="middle" font-family="var(--font-mono)" font-size="7" fill="#3E4A68" letter-spacing="1.4" class="shutdown-fade">SYSTEM SHUTDOWN / SESSION COMPLETE</text>
+
+    <!-- outer frame -->
+    <rect x="4" y="4" width="1492" height="292" rx="12" fill="none" stroke="#171D2C" stroke-width="2"/>
+  </g>
+</svg>
