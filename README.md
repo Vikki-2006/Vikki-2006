@@ -8,12 +8,7 @@
 
 
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner.svg">
-    <img src="./banner.svg" width="100%" alt="Vigneshwaran S - Full Stack Developer">
-  </picture>
-</p>
+
 <h3 align="center">🌐 Connect With Me</h3>
   <br>
 <p align="center">
