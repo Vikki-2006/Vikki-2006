@@ -130,9 +130,7 @@ src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Vik
   <img height="170" src="https://streak-stats.demolab.com?user=Vikki-2006&theme=github-dark-blue&hide_border=true" />
 </p>
 
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vikki-2006&theme=github-dark&hide_border=true&area=true" />
-</p>
+
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=12,20,24,30,36,42,49,57,64,72&section=header" width="100%"/>
