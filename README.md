@@ -8,24 +8,6 @@
 </p>
 
 
-<h3 align="center">🌐 Connect With Me</h3>
-  <br>
-<p align="center">
-<a href="https://vigneshwaran-dev.vercel.app/" target="_blank">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/vigneshwaran-s-1b4364369/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-
-<a href="mailto:vigneshwaran.s.dev@gmail.comm">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</p>
-
 ## 👨‍💻 About Me
 
 ```python
